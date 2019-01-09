@@ -1,0 +1,972 @@
+<!-- DOCTYPE -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Viewport Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      BEM-TEC | Análisis energético normativa mexicana
+    </title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <!--Fonts-->
+    <link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" media="screen" href="assets/fonts/simple-line-icons.css">
+
+    <!-- Extras -->
+    <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/settings.css">
+
+    <!-- Color CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/colors/green.css" media="screen" />
+
+    <!-- CSS con estilos de modal login y registro -->
+    <link rel="stylesheet" type="text/css" href="assets/css/loginStyles.css" media="screen" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/pieChart.css" media="screen" />
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <style text="text/css">
+
+    .separador{
+        width: 80%;
+        border-color:#24445A;
+        border-top: dotted 1px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+
+    </style>
+
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
+
+    <!-- Controller -->
+    <script src="../controller/loginRegisterController.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+    </script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
+    </script>
+    <![endif]-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113013061-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-113013061-1');
+    </script>
+
+  </head>
+  <body ng-app="app" ng-controller="loginRegisterController as app">
+
+  <!-- Header area wrapper starts -->
+    <header id="header-wrap">
+
+      <!-- Roof area starts -->
+
+      <!-- Roof area Ends -->
+
+      <!-- Header area starts -->
+      <section id="header">
+
+        <!-- Navbar Starts -->
+        <nav class="navbar navbar-light" data-spy="affix" data-offset-top="50">
+          <div class="container">
+            <button class='navbar-toggler hidden-md-up pull-xs-right' data-target='#main-menu' data-toggle='collapse' type='button'>
+              ☰
+            </button>
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">
+              <img src="images/BEMTEC-Logo-Light.png" alt="">
+            </a>
+            <div class="collapse navbar-toggleable-sm pull-xs-left pull-md-right" id="main-menu">
+              <!-- Navbar Starts -->
+              <ul class="nav nav-inline">
+                <li class="nav-item dropdown" ng-if="app.sesion == 0">
+                  <a class="nav-link" href="index.html" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                </li>
+                <li class="nav-item dropdown" ng-if="app.sesion == 0">
+                  <a class="nav-link" href="que_es.html" role="button" aria-haspopup="true" aria-expanded="false">¿Qué es?</a>
+                </li>
+                <li class="nav-item dropdown" ng-if="app.sesion == 0">
+                  <a class="nav-link" href="aprende.html" role="button" aria-haspopup="true" aria-expanded="false">Aprende más</a>
+                </li>
+                <li class="nav-item dropdown" ng-if="app.sesion == 0">
+                  <a class="nav-link" href="equipo.html" role="button" aria-haspopup="true" aria-expanded="false">Sobre el equipo</a>
+                </li>
+                <li class="nav-item dropdown" ng-if="app.sesion == 0">
+                  <a class="nav-link" href="ayuda.html" role="button" aria-haspopup="true" aria-expanded="false">Ayuda</a>
+                </li>
+                <li class="nav-item dropdown" ng-if="app.sesion == 0">
+                  <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="modal" data-target="#login-modal">Login</a>
+                </li>
+                <li class="nav-item dropdown" ng-if="app.sesion == 1">
+                  <a class="nav-link active" href="calculadoraHome.html" role="button" aria-haspopup="true" aria-expanded="false">Calcular</a>
+                </li>
+                <li class="nav-item dropdown" ng-if="app.sesion == 1">
+                  <a class="nav-link"href="#" ng-click="cierraSesion()" role="button" aria-haspopup="true" aria-expanded="false">Logout</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar Ends -->
+      </section>
+    <!-- Start Content -->
+    </header>
+    <!-- Header-wrap Section End -->
+
+    <!-- Service Block-1 Section -->
+    <section id="service-block-main" class="section">
+      <!-- Container Starts -->
+      <div class="container">
+        <div class="row">
+          <h5 style="font-weight: 550;"><u></u></h5>
+          <h4 class="section-title2 wow fadeIn animated" data-wow-delay=".2s">Componente No Homogénea</h4>
+          <br/>
+          <div class="row">
+            <div class="col-sm-2 col-md-2"></div>
+            <div class="col-sm-2 col-md-2" style="padding-top:15px;">
+                <center><input type="radio" name="elemento" ng-model="componente.tipo" value="Masivo">&nbsp;Masivo</input></center>
+            </div>
+            <div class="col-sm-2 col-md-2" style="padding-top:15px;">
+                <center><input type="radio" name="elemento" ng-model="componente.tipo" value="Ligero">&nbsp;Ligero</input></center>
+            </div>
+            <div class="col-sm-4 col-md-4">
+              <div class="col-sm-5 col-md-5">
+                <h5 style="font-size:16px; padding-top: 7px;">Total de Componentes</h5>
+              </div>
+              <div class="col-sm-3 col-md-3" style="padding-top:10px;">
+                <select id="totalComponentes" name="totalComponentes" class="form-control separacion-input">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option selected value="5">5</option>
+                </select>
+              </div>
+              <div class="col-sm-4 col-md-4"></div>
+            </div>
+            <div class="col-sm-2 col-md-2"></div>
+          </div>
+
+          <br/>
+          <input type="hidden" id="areaOculta" value=""/>
+
+          <!-- Componente no homogenea 1 -->
+
+          <div class="row">
+            <div class="col-sm-6 col-md-6">
+              <div class="col-sm-2 col-md-2"></div>
+              <div class="col-sm-6 col-md-6">
+                <h5 class="labelCalculadora" style="padding-top: 7px; padding-bottom: 7px;">Área que ocupa la componente no homogénea 1:</h5>
+              </div>
+              <div class="col-sm-4 col-md-4">
+                <input type="text" id="areaNoHomogenea1" class="form-control separacion-input" name="areaNoHomogenea1" ng-model="componenteNH1.areaNoHomogenea" />
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+              <div class="col-sm-4 col-md-4">
+                <h5 class="labelCalculadora" style="padding-top: 7px; padding-bottom: 7px;">Fracción (F1):</h5>
+              </div>
+              <div class="col-sm-3 col-md-3">
+                <input type="text" id="fraccion1" class="form-control separacion-input" name="fraccion1" disabled ng-model="componenteNH1.fraccion" />
+              </div>
+              <div class="col-sm-2 col-md-2"></div>
+            </div>
+          </div>
+
+          <!-- Componente no homogenea 2 -->
+
+          <div class="row">
+            <div class="col-sm-6 col-md-6">
+              <div class="col-sm-2 col-md-2"></div>
+              <div class="col-sm-6 col-md-6">
+                <h5 class="labelCalculadora" style="padding-top: 7px; padding-bottom: 7px;">Área que ocupa la componente no homogénea 2:</h5>
+              </div>
+              <div class="col-sm-4 col-md-4">
+                <input type="text" id="areaNoHomogenea2" class="form-control separacion-input" name="areaNoHomogenea2" ng-model="componenteNH2.areaNoHomogenea" />
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+              <div class="col-sm-4 col-md-4">
+                <h5 class="labelCalculadora" style="padding-top: 7px; padding-bottom: 7px;">Fracción (F2):</h5>
+              </div>
+              <div class="col-sm-3 col-md-3">
+                <input type="text" id="fraccion2" class="form-control separacion-input" name="fraccion2" disabled ng-model="componenteNH2.fraccion" />
+              </div>
+              <div class="col-sm-2 col-md-2"></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <br/>
+            <hr class="separador"/>
+            <div>
+              <div class="col-sm-2 col-md-2"></div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 class="labelCalculadora" style="padding-top: 7px; padding-bottom: 7px;">Material</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 class="labelCalculadora" style="padding-top: 7px; padding-bottom: 7px;">Espesor (m)</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 class="labelCalculadora" style="padding-top: 7px; padding-bottom: 7px;">Conductividad térmica (&lambda;) (W/mK)</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 class="labelCalculadora" style="padding-top: 7px; padding-bottom: 7px;">Aislante térmico (m<sup>2</sup>K/W)</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2"></div>
+
+            </div>
+            <hr class="separador"/>
+          </div>
+
+          <!-- Fila Convección Exterior -->
+
+          <div class="row">
+            <br/>
+            <div>
+              <div class="col-sm-2 col-md-2"></div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 style="font-size:15px; padding-top: 3px; font-weight: bold;">Convección Exterior</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 style="font-size:18px; padding-top: 3px; font-weight: bold;">1</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 style="font-size:18px; padding-top: 3px; font-weight: bold;">13</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 style="font-size:18px; padding-top: 3px; font-weight: bold;">0.077</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2"></div>
+
+            </div>
+            <hr class="separador"/>
+          </div>
+
+          <!-- Fila 1 de componentes -->
+
+          <div class="row">
+            <br/>
+            <div>
+              <div class="col-sm-2 col-md-2"></div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="material1" class="form-control separacion-input" name="material1" ng-model="componente1.material" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="espesor1" class="form-control separacion-input" name="espesor1" ng-model="componente1.espesor" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="conductividad1" class="form-control separacion-input" name="conductividad1" ng-model="componente1.conductividad" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="aislante1" class="form-control separacion-input" name="aislante1" disabled ng-model="componente1.aislante" />
+              </div>
+              <div class="col-sm-2 col-md-2"></div>
+            </div>
+          </div>
+
+          <!-- Fila 2 de componentes -->
+
+          <div class="row">
+            <br/>
+            <div>
+              <div class="col-sm-2 col-md-2"></div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="material2" class="form-control separacion-input" name="material2" ng-model="componente2.material" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="espesor2" class="form-control separacion-input" name="espesor2" ng-model="componente2.espesor" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="conductividad2" class="form-control separacion-input" name="conductividad2" ng-model="componente2.conductividad" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="aislante2" class="form-control separacion-input" name="aislante2" disabled ng-model="componente2.aislante" />
+              </div>
+              <div class="col-sm-2 col-md-2"></div>
+            </div>
+          </div>
+
+          <!-- Fila 3 de componentes -->
+
+          <div class="row">
+            <br/>
+            <div>
+              <div class="col-sm-2 col-md-2"></div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="material3" class="form-control separacion-input" name="material3" ng-model="componente3.material" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="espesor3" class="form-control separacion-input" name="espesor3" ng-model="componente3.espesor" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="conductividad3" class="form-control separacion-input" name="conductividad3" ng-model="componente3.conductividad" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="aislante3" class="form-control separacion-input" name="aislante3" disabled ng-model="componente3.aislante" />
+              </div>
+              <div class="col-sm-2 col-md-2"></div>
+            </div>
+          </div>
+
+          <!-- Fila 4 de componentes -->
+
+          <div class="row">
+            <br/>
+            <div>
+              <div class="col-sm-2 col-md-2"></div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="material4" class="form-control separacion-input" name="material4" ng-model="componente4.material" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="espesor4" class="form-control separacion-input" name="espesor4" ng-model="componente4.espesor" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="conductividad4" class="form-control separacion-input" name="conductividad4" ng-model="componente4.conductividad" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="aislante4" class="form-control separacion-input" name="aislante4" disabled ng-model="componente4.aislante" />
+              </div>
+              <div class="col-sm-2 col-md-2"></div>
+            </div>
+          </div>
+
+          <!-- Fila 5 de componentes -->
+
+          <div class="row">
+            <br/>
+            <div>
+              <div class="col-sm-2 col-md-2"></div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="material5" class="form-control separacion-input" name="material5" ng-model="componente5.material" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="espesor5" class="form-control separacion-input" name="espesor5" ng-model="componente5.espesor" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="conductividad5" class="form-control separacion-input" name="conductividad5" ng-model="componente5.conductividad" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="aislante5" class="form-control separacion-input" name="aislante5" disabled ng-model="componente5.aislante" />
+              </div>
+              <div class="col-sm-2 col-md-2"></div>
+            </div>
+          </div>
+
+          <!-- Fila Convección Interior -->
+
+          <div class="row">
+            <hr class="separador"/>
+            <br/>
+            <div>
+              <div class="col-sm-2 col-md-2"></div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 style="font-size:15px; padding-top: 3px; font-weight: bold;">Convección Interior</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 style="font-size:18px; padding-top: 3px; font-weight: bold;">1</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 style="font-size:18px; padding-top: 3px; font-weight: bold;">8.1</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 style="font-size:18px; padding-top: 3px; font-weight: bold;">0.1235</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2"></div>
+
+            </div>
+            <hr class="separador"/>
+          </div>
+
+          <!-- Cálculo de M parcial -->
+          <div class="row">
+            <div class="col-sm-6 col-md-6"></div>
+            <div class="col-sm-5 col-md-5" style="padding-top: 30px;">
+              <div class="col-sm-5 col-md-5">
+                <h5 style="font-size:16px; padding-top: 7px;">M Parcial (m<sub>2</sub>K/W)</h5>
+              </div>
+              <div class="col-sm-5 col-md-5">
+                <input type="text" class="form-control separacion-input" id="mComponenteParcial" disabled ng-model="componente.mParcial"/>
+              </div>
+            </div>
+
+            <div class="col-sm-1 col-md-1"></div>
+          </div>
+
+          <!-- Inicio de componentes no homogéneas -->
+
+          <div class="row">
+            <br/>
+            <hr class="separador"/>
+            <div>
+              <div class="col-sm-1 col-md-1"></div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 class="labelCalculadora" style="padding-top: 7px; padding-bottom: 7px;">Fracción</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 class="labelCalculadora" style="padding-top: 7px; padding-bottom: 7px;">Material</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 class="labelCalculadora" style="padding-top: 7px; padding-bottom: 7px;">Espesor (m)</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 class="labelCalculadora" style="padding-top: 7px; padding-bottom: 7px;">Conductividad térmica (&lambda;) (W/mK)</h5></center>
+              </div>
+              <div class="col-sm-2 col-md-2">
+                <center><h5 class="labelCalculadora" style="padding-top: 7px; padding-bottom: 7px;">Aislante térmico (m<sup>2</sup>K/W)</h5></center>
+              </div>
+              <div class="col-sm-1 col-md-1"></div>
+
+            </div>
+            <hr class="separador"/>
+          </div>
+
+          <!-- Fila 1 de componentes no homogéneos -->
+
+          <div class="row">
+            <br/>
+            <div>
+              <div class="col-sm-1 col-md-1"></div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="fraccionNH1" class="form-control separacion-input" name="fraccionNH1" disabled />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="materialNH1" class="form-control separacion-input" name="materialNH1" ng-model="componenteNH1.material" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="espesorNH1" class="form-control separacion-input" name="espesorNH1" ng-model="componenteNH1.espesor" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="conductividadNH1" class="form-control separacion-input" name="conductividadNH1" ng-model="componenteNH1.conductividad" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="aislanteNH1" class="form-control separacion-input" name="aislanteNH1" disabled ng-model="componenteNH1.aislante" />
+              </div>
+              <div class="col-sm-1 col-md-1"></div>
+            </div>
+          </div>
+
+          <!-- Fila 2 de componentes no homogéneos -->
+
+          <div class="row">
+            <br/>
+            <div>
+              <div class="col-sm-1 col-md-1"></div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="fraccionNH2" class="form-control separacion-input" name="fraccionNH2" disabled />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="materialNH2" class="form-control separacion-input" name="materialNH2" ng-model="componenteNH2.material" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="espesorNH2" class="form-control separacion-input" name="espesorNH2" ng-model="componenteNH2.espesor" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="conductividadNH2" class="form-control separacion-input" name="conductividadNH2" ng-model="componenteNH2.conductividad" />
+              </div>
+              <div class="col-sm-2 col-md-2">
+                  <input type="text" id="aislanteNH2" class="form-control separacion-input" name="aislanteNH2" disabled ng-model="componenteNH2.aislante" />
+              </div>
+              <div class="col-sm-1 col-md-1"></div>
+            </div>
+          </div>
+
+
+          <!-- Botones para realizar cálculo y regresar a calculadora.html -->
+          <div class="row">
+            <div class="col-sm-3 col-md-3"></div>
+            <div class="col-sm-2 col-md-2" style="padding-top: 30px;">
+              <button type="button" id="calcularMyK" class="btn btn-success"s>CALCULAR</button>
+            </div>
+            <div class="col-sm-2 col-md-2" style="padding-top: 30px;">
+              <div class="col-sm-3 col-md-3">
+                <h5 style="font-size:18px; padding-top: 7px;">M</h5>
+              </div>
+              <div class="col-sm-9 col-md-9">
+                <input type="text" class="form-control separacion-input" id="mComponentes" disabled ng-model="componente.mTotal"/>
+              </div>
+            </div>
+            <div class="col-sm-2 col-md-2" style="padding-top: 30px;">
+              <div class="col-sm-3 col-md-3">
+                <h5 style="font-size:18px; padding-top: 7px;">K</h5>
+              </div>
+              <div class="col-sm-9 col-md-9">
+                <input type="text" class="form-control separacion-input" id="kComponentes" disabled ng-model="componente.kTotal"/>
+              </div>
+            </div>
+
+            <div class="col-sm-2 col-md-2"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-4 col-md-4"></div>
+            <div class="col-sm-4 col-md-4">
+              <div style="padding-top: 32px;">
+                <button type="button" class="btn btn-success" ng-click="guardaComponentesNoHomogeneas(componente, componente1, componente2, componente3, componente4, componente5, componenteNH1, componenteNH2)">GUARDAR Y AGREGAR OTRO ELEMENTO</button>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3"></div>
+          </div>
+
+        </div>
+
+      </div><!-- Container Ends -->
+    </section><!-- Service Main Section Ends -->
+
+    <!-- INICIA # MODAL LOGIN -->
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Begin # DIV Form -->
+              <div id="div-forms">
+
+                <!-- Begin # Login Form -->
+                <form id="login-form">
+                    <div class="modal-body">
+                        <div style="padding-top: 10px; padding-bottom: 10px;">
+                          <center>
+                            <h3 style="color:#769e26"><a href="#" id="login_login_btn">Inicia Sesión</a> o <a href="#" id="login_register_btn">Regístrate aquí</a></h3>
+                          </center>
+                        </div>
+                        <input id="login_username" class="form-control" type="text" placeholder="Correo electrónico" required ng-model="usuario.usuario">
+                        <input id="login_password" class="form-control" type="password" placeholder="Contraseña" required ng-model="usuario.password">
+                    </div>
+                    <div class="modal-footer">
+                        <div>
+                            <button type="submit" class="btn btn-success btn-lg btn-block" ng-click="iniciaSesion(usuario)">Login</button>
+                        </div>
+                        <div>
+                            <button id="login_lost_btn" type="button" class="btn btn-link">Olvidaste tu contraseña?</button>
+                        </div>
+                    </div>
+                </form>
+                <!-- End # Login Form -->
+
+                <!-- Begin | Lost Password Form -->
+                <form id="lost-form" style="display:none;">
+                   <div class="modal-body">
+                     <div style="padding-top: 10px; padding-bottom: 10px;">
+                       <center>
+                         <h3 style="color:#769e26"><a href="#">Recupera Contraseña</a></h3>
+                       </center>
+                     </div>
+                       <input id="lost_email" class="form-control" type="text" placeholder="Correo electrónico" required ng-model="usuario.usuario">
+                   </div>
+                   <div class="modal-footer">
+                       <div>
+                         <center>
+                           <button type="button" class="btn btn-success" ng-click="recuperaPassword(usuario.usuario)">Enviar</button>
+                           <button type="button" id="lost_login_btn" class="btn btn-danger" onclick="$('#login-modal').modal('hide');">Cancelar</button>
+                         </center>
+                       </div>
+                  </div>
+              </form>
+              <!-- End | Lost Password Form -->
+
+              <!-- Begin | Register Form -->
+              <form id="register-form" style="display:none;">
+                  <div class="modal-body">
+                    <div style="padding-top: 10px; padding-bottom: 10px;">
+                      <center>
+                        <h3 style="color:#769e26"><a href="#" id="register_register_btn">Regístrate</a></h3>
+                      </center>
+                    </div>
+                      <input id="register_email" class="form-control" type="text" placeholder="Correo electrónico" required ng-model="usuario.usuario">
+                      <input id="register_password" class="form-control" type="password" placeholder="Contraseña" required ng-model="usuario.password">
+                      <input id="register_confirm" class="form-control" type="password" placeholder="Confirmar contraseña" required>
+                      <input id="register_institution" class="form-control" type="text" placeholder="Institución" required ng-model="usuario.institucion">
+                  </div>
+                  <div class="modal-footer">
+                      <div>
+                        <center>
+                          <button type="button" class="btn btn-success" ng-click="registraUsuario(usuario)">Registrar</button>
+                          <button type="button" id="register_login_btn" class="btn btn-danger" onclick="$('#login-modal').modal('hide');">Cancelar</button>
+                        </center>
+                      </div>
+                  </div>
+              </form>
+              <!-- End | Register Form -->
+          </div>
+          <!-- End # DIV Form -->
+        </div>
+      </div>
+    </div>
+    <!-- END # MODAL LOGIN -->
+
+    <!-- Footer Section -->
+    <footer class="fixed-bottom">
+      <!-- Copyright -->
+      <div id="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-4">
+              <p class="copyright-text">
+                ©  <script type="text/javascript">
+						          document.write(new Date().getFullYear());
+                   </script>
+                  Todos los derechos reservados
+              </p>
+            </div>
+            <div class="col-md-8 col-sm-8">
+              <ul class="nav nav-inline pull-xs-left">
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://novus.itesm.mx/"><img src="images/BEM-TEC-Logo-Novus.png" height="25" width="" alt="100"/></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="http://tec.mx/es"><img src="images/BEM-TEC-Logo-Tecnologico-de-monterrey.png" height="25" width="" alt="100"/></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="http://tec.mx/es/avisos-de-privacidad">Aviso de privacidad</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright  End-->
+
+    </footer>
+    <!-- Footer Section End-->
+
+    <!-- Go To Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="fa fa-angle-up">
+      </i>
+    </a>
+
+    <div class="bottom"> <a href="#" class="settings"></a> </div>
+
+    <!-- JavaScript & jQuery Plugins -->
+    <!-- jQuery Load -->
+    <script src="assets/js/jquery-min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--Text Rotator-->
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <!--WOW Scroll Spy-->
+    <script src="assets/js/wow.js"></script>
+    <!-- OWL Carousel -->
+    <script src="assets/js/owl.carousel.js"></script>
+
+    <!-- WayPoint -->
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- CounterUp -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- ScrollTop -->
+    <script src="assets/js/scroll-top.js"></script>
+    <!-- Appear -->
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/jquery.vide.js"></script>
+     <!-- All JS plugin Triggers -->
+    <script src="assets/js/main.js"></script>
+    <!--<script src="assets/js/color-switcher.js"></script>-->
+
+    <!-- Script con funcionalidad de modal login y registro -->
+    <script src="assets/js/login.js"></script>
+
+    <script src="assets/js/pieChart.js"></script>
+
+    <script type="text/javascript">
+
+      $("#areaNoHomogenea1").bind('keyup blur',function(){
+        var areaTotal = $("#areaOculta").val();
+        var fraccion = parseFloat($("#areaNoHomogenea1").val()) / parseFloat(areaTotal);
+        $("#fraccion1").val(fraccion.toFixed(3));
+        $("#fraccionNH1").val(fraccion.toFixed(3));
+        if($("#areaNoHomogenea2").val() != ""){
+          fraccion = 1 - fraccion;
+          $("#fraccion2").val(fraccion.toFixed(3));
+          $("#fraccionNH2").val(fraccion.toFixed(3));
+        }
+      });
+
+      $("#areaNoHomogenea2").bind('keyup blur',function(){
+        var areaTotal = $("#areaOculta").val();
+        console.log("AREA 2: " + areaTotal);
+        var fraccion = 1 - (parseFloat($("#areaNoHomogenea1").val()) / parseFloat(areaTotal));
+        $("#fraccion2").val(fraccion.toFixed(3));
+        $("#fraccionNH2").val(fraccion.toFixed(3));
+      });
+
+      $("#totalComponentes").change(function () {
+        totalComponentes = $(this).val();
+
+        //Se hacen visibles Todos
+        for(i=1; i<=totalComponentes; i++){
+          $("#material"+i).css("display", "block");
+          $("#espesor"+i).css("display", "block");
+          $("#conductividad"+i).css("display", "block");
+          $("#aislante"+i).css("display", "block");
+        }
+        //Se ocultan los que no se necesitan
+        for(i=5; i>totalComponentes; i--){
+          $("#material"+i).css("display", "none");
+          $("#espesor"+i).css("display", "none");
+          $("#conductividad"+i).css("display", "none");
+          $("#aislante"+i).css("display", "none");
+          $("#material"+i).val("");
+          $("#espesor"+i).val("");
+          $("#conductividad"+i).val("");
+          $("#aislante"+i).val("");
+        }
+
+        var totalM = validaSumatoriaM($("#aislante1").val(), $("#aislante2").val(), $("#aislante3").val(), $("#aislante4").val(), $("#aislante5").val());
+        $("#mComponenteParcial").val(totalM.toFixed(3));
+
+      });
+
+      $("#espesor1").bind('keyup blur',function(){
+
+        if($(this).val() == "" || $("#conductividad1").val() == ""){
+          $("#aislante1").val(0);
+        }else{
+          var total = parseFloat($(this).val()) / parseFloat($("#conductividad1").val());
+          $("#aislante1").val(total.toFixed(3));
+        }
+
+        var totalM = validaSumatoriaM($("#aislante1").val(), $("#aislante2").val(), $("#aislante3").val(), $("#aislante4").val(), $("#aislante5").val());
+        $("#mComponenteParcial").val(totalM.toFixed(3));
+
+      });
+
+      $("#conductividad1").bind('keyup blur',function(){
+
+        if($(this).val() == "" || $("#espesor1").val() == ""){
+          $("#aislante1").val(0);
+        }else{
+          var total = parseFloat($("#espesor1").val()) / parseFloat($(this).val());
+          $("#aislante1").val(total.toFixed(3));
+        }
+
+        var totalM = validaSumatoriaM($("#aislante1").val(), $("#aislante2").val(), $("#aislante3").val(), $("#aislante4").val(), $("#aislante5").val());
+        $("#mComponenteParcial").val(totalM.toFixed(3));
+
+      });
+
+      $("#espesor2").bind('keyup blur',function(){
+
+        if($(this).val() == "" || $("#conductividad2").val() == ""){
+          $("#aislante2").val(0);
+        }else{
+          var total = parseFloat($(this).val()) / parseFloat($("#conductividad2").val());
+          $("#aislante2").val(total.toFixed(3));
+        }
+
+        var totalM = validaSumatoriaM($("#aislante1").val(), $("#aislante2").val(), $("#aislante3").val(), $("#aislante4").val(), $("#aislante5").val());
+        $("#mComponenteParcial").val(totalM.toFixed(3));
+
+      });
+
+      $("#conductividad2").bind('keyup blur',function(){
+
+        if($(this).val() == "" || $("#espesor2").val() == ""){
+          $("#aislante2").val(0);
+        }else{
+          var total = parseFloat($("#espesor2").val()) / parseFloat($(this).val());
+          $("#aislante2").val(total.toFixed(3));
+        }
+
+        var totalM = validaSumatoriaM($("#aislante1").val(), $("#aislante2").val(), $("#aislante3").val(), $("#aislante4").val(), $("#aislante5").val());
+        $("#mComponenteParcial").val(totalM.toFixed(3));
+
+      });
+
+      $("#espesor3").bind('keyup blur',function(){
+
+        if($(this).val() == "" || $("#conductividad3").val() == ""){
+          $("#aislante3").val(0);
+        }else{
+          var total = parseFloat($(this).val()) / parseFloat($("#conductividad3").val());
+          $("#aislante3").val(total.toFixed(3));
+        }
+
+        var totalM = validaSumatoriaM($("#aislante1").val(), $("#aislante2").val(), $("#aislante3").val(), $("#aislante4").val(), $("#aislante5").val());
+        $("#mComponenteParcial").val(totalM.toFixed(3));
+
+      });
+
+      $("#conductividad3").bind('keyup blur',function(){
+
+        if($(this).val() == "" || $("#espesor3").val() == ""){
+          $("#aislante3").val(0);
+        }else{
+          var total = parseFloat($("#espesor3").val()) / parseFloat($(this).val());
+          $("#aislante3").val(total.toFixed(3));
+        }
+
+        var totalM = validaSumatoriaM($("#aislante1").val(), $("#aislante2").val(), $("#aislante3").val(), $("#aislante4").val(), $("#aislante5").val());
+        $("#mComponenteParcial").val(totalM.toFixed(3));
+
+      });
+
+      $("#espesor4").bind('keyup blur',function(){
+
+        if($(this).val() == "" || $("#conductividad4").val() == ""){
+          $("#aislante4").val(0);
+        }else{
+          var total = parseFloat($(this).val()) / parseFloat($("#conductividad4").val());
+          $("#aislante4").val(total.toFixed(3));
+        }
+
+        var totalM = validaSumatoriaM($("#aislante1").val(), $("#aislante2").val(), $("#aislante3").val(), $("#aislante4").val(), $("#aislante5").val());
+        $("#mComponenteParcial").val(totalM.toFixed(3));
+
+      });
+
+      $("#conductividad4").bind('keyup blur',function(){
+
+        if($(this).val() == "" || $("#espesor4").val() == ""){
+          $("#aislante4").val(0);
+        }else{
+          var total = parseFloat($("#espesor4").val()) / parseFloat($(this).val());
+          $("#aislante4").val(total.toFixed(3));
+        }
+
+        var totalM = validaSumatoriaM($("#aislante1").val(), $("#aislante2").val(), $("#aislante3").val(), $("#aislante4").val(), $("#aislante5").val());
+        $("#mComponenteParcial").val(totalM.toFixed(3));
+
+      });
+
+      $("#espesor5").bind('keyup blur',function(){
+
+        if($(this).val() == "" || $("#conductividad5").val() == ""){
+          $("#aislante5").val(0);
+        }else{
+          var total = parseFloat($(this).val()) / parseFloat($("#conductividad5").val());
+          $("#aislante5").val(total.toFixed(3));
+        }
+
+        var totalM = validaSumatoriaM($("#aislante1").val(), $("#aislante2").val(), $("#aislante3").val(), $("#aislante4").val(), $("#aislante5").val());
+        $("#mComponenteParcial").val(totalM.toFixed(3));
+
+      });
+
+      $("#conductividad5").bind('keyup blur',function(){
+
+        if($(this).val() == "" || $("#espesor5").val() == ""){
+          $("#aislante5").val(0);
+        }else{
+          var total = parseFloat($("#espesor5").val()) / parseFloat($(this).val());
+          $("#aislante5").val(total.toFixed(3));
+        }
+
+        var totalM = validaSumatoriaM($("#aislante1").val(), $("#aislante2").val(), $("#aislante3").val(), $("#aislante4").val(), $("#aislante5").val());
+        $("#mComponenteParcial").val(totalM.toFixed(3));
+
+      });
+
+      function validaSumatoriaM(m1, m2, m3, m4, m5){
+        if(m1 == "")
+          m1 = 0;
+        if(m2 == "")
+          m2 = 0;
+        if(m3 == "")
+          m3 = 0;
+        if(m4 == "")
+          m4 = 0;
+        if(m5 == "")
+          m5 = 0;
+
+        return parseFloat(m1) + parseFloat(m2) + parseFloat(m3) + parseFloat(m4) + parseFloat(m5) + 0.077 + 0.1235;
+
+      }
+
+      $("#espesorNH1").bind('keyup blur',function(){
+
+        if($(this).val() == "" || $("#conductividadNH1").val() == ""){
+          $("#aislanteNH1").val(0);
+        }else{
+          var total = parseFloat($(this).val()) / parseFloat($("#conductividadNH1").val());
+          $("#aislanteNH1").val(total.toFixed(3));
+        }
+
+      });
+
+      $("#conductividadNH1").bind('keyup blur',function(){
+
+        if($(this).val() == "" || $("#espesorNH1").val() == ""){
+          $("#aislanteNH1").val(0);
+        }else{
+          var total = parseFloat($("#espesorNH1").val()) / parseFloat($(this).val());
+          $("#aislanteNH1").val(total.toFixed(3));
+        }
+
+      });
+
+      $("#espesorNH2").bind('keyup blur',function(){
+
+        if($(this).val() == "" || $("#conductividadNH2").val() == ""){
+          $("#aislanteNH2").val(0);
+        }else{
+          var total = parseFloat($(this).val()) / parseFloat($("#conductividadNH2").val());
+          $("#aislanteNH2").val(total.toFixed(3));
+        }
+
+      });
+
+      $("#conductividadNH2").bind('keyup blur',function(){
+
+        if($(this).val() == "" || $("#espesorNH2").val() == ""){
+          $("#aislanteNH2").val(0);
+        }else{
+          var total = parseFloat($("#espesorNH2").val()) / parseFloat($(this).val());
+          $("#aislanteNH2").val(total.toFixed(3));
+        }
+
+      });
+
+
+      $("#calcularMyK").click(function(){
+        var mParcial = $("#mComponenteParcial").val();
+        var fraccionNH1 = $("#fraccionNH1").val();
+        var fraccionNH2 = $("#fraccionNH2").val();
+        var aislanteNH1 = $("#aislanteNH1").val();
+        var aislanteNH2 = $("#aislanteNH2").val();
+
+        var subtotalMParcial = 1 / parseFloat(mParcial);
+        //Corrección Cari
+        /*var subtotalFraccion1 = parseFloat(fraccionNH1) + parseFloat(aislanteNH1);
+        var subtotalFraccion2 = parseFloat(fraccionNH2) + parseFloat(aislanteNH2);*/
+
+        var subtotalFraccion1 = parseFloat(fraccionNH1) / (parseFloat(mParcial) + parseFloat(aislanteNH1));
+        var subtotalFraccion2 = parseFloat(fraccionNH2) / (parseFloat(mParcial) + parseFloat(aislanteNH2));
+
+        console.log("Subtotal Fraccion 1: " + subtotalFraccion1);
+        console.log("Subtotal Fraccion 2: " + subtotalFraccion2);
+
+        //var totalM = 1 / (parseFloat(subtotalMParcial) + parseFloat(subtotalFraccion1) + parseFloat(subtotalFraccion2));
+        var totalK = parseFloat(subtotalFraccion1) + parseFloat(subtotalFraccion2);
+
+        $("#kComponentes").val(totalK.toFixed(3));
+        var inverso = 1 / totalK;
+        if(!isFinite(inverso))
+          inverso = 0;
+        $("#mComponentes").val(inverso.toFixed(3));
+
+      });
+
+    </script>
+
+  </body>
+</html>
