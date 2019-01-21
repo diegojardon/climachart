@@ -1,0 +1,289 @@
+<!-- DOCTYPE -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Viewport Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      BEM-TEC | Análisis energético normativa mexicana
+    </title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <!--Fonts-->
+    <link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" media="screen" href="assets/fonts/simple-line-icons.css">
+
+    <!-- Extras -->
+    <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/settings.css">
+
+    <!-- Color CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/colors/lightblue.css" media="screen" />
+
+    <!-- CSS con estilos de modal login y registro -->
+    <link rel="stylesheet" type="text/css" href="assets/css/loginStyles.css" media="screen" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/pieChart.css" media="screen" />
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
+
+    <!-- Controller -->
+    <script src="controller/loginRegisterController.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+    </script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
+    </script>
+    <![endif]-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113013061-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-113013061-1');
+    </script>
+
+  </head>
+  <body ng-app="app" ng-controller="loginRegisterController as app">
+
+  <!-- Header area wrapper starts -->
+    <header id="header-wrap">
+
+      <!-- Roof area starts -->
+
+      <!-- Roof area Ends -->
+
+      <!-- Header area starts -->
+      <section id="header">
+
+        <!-- Navbar Starts -->
+        <nav class="navbar navbar-light" data-spy="affix" data-offset-top="50">
+          <div class="container">
+            <button class='navbar-toggler hidden-md-up pull-xs-right' data-target='#main-menu' data-toggle='collapse' type='button'>
+              ☰
+            </button>
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">
+              <img src="images/Climachart-LOGO-darks.png" width="140" height="60" alt="">
+            </a>
+            <div class="collapse navbar-toggleable-sm pull-xs-left pull-md-right" id="main-menu">
+              <!-- Navbar Starts -->
+              <ul class="nav nav-inline">
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="index.html" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="que_es.html" role="button" aria-haspopup="true" aria-expanded="false">¿Qué es?</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="aprende.html" role="button" aria-haspopup="true" aria-expanded="false">Aprende más</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="equipo.html" role="button" aria-haspopup="true" aria-expanded="false">Sobre el equipo</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link active" href="ayuda.html" role="button" aria-haspopup="true" aria-expanded="false">Ayuda</a>
+                </li>
+                <!--<li class="nav-item dropdown">
+                  <a class="nav-link" href="graficar.html" role="button" aria-haspopup="true" aria-expanded="false">Graficar</a>
+                </li>-->
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar Ends -->
+      </section>
+    <!-- Start Content -->
+    </header>
+    <!-- Header-wrap Section End -->
+
+    <!-- Service Block-1 Section -->
+    <section id="service-block-main" class="section">
+      <!-- Container Starts -->
+      <div class="container">
+        <div class="row">
+          <h1 class="section-title wow fadeIn animated" data-wow-delay=".2s">
+           Ayuda
+          </h1>
+          <p class="section-subcontent">Descarga el manual de uso para realizar los cálculos de las normativas NOM 008 ENER 2001 y NOM 020 ENER 2011.</p>
+          <a href="pdf/BEM-TEC.pdf" target="_blank"><img src="images/icon_pdf.jpg" alt="" height="90" width="90" class="img-responsive center-block" /></a>
+        </div>
+
+      </div><!-- Container Ends -->
+    </section><!-- Service Main Section Ends -->
+
+    <!-- INICIA # MODAL LOGIN -->
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Begin # DIV Form -->
+              <div id="div-forms">
+
+                <!-- Begin # Login Form -->
+                <form id="login-form">
+                    <div class="modal-body">
+                        <div style="padding-top: 10px; padding-bottom: 10px;">
+                          <center>
+                            <h3 style="color:#769e26x"><a href="#" id="login_login_btn">Inicia Sesión</a> o <a href="#" id="login_register_btn">Regístrate aquí</a></h3>
+                          </center>
+                        </div>
+                        <input id="login_username" class="form-control" type="text" placeholder="Correo electrónico" required ng-model="usuario.usuario">
+                        <input id="login_password" class="form-control" type="password" placeholder="Contraseña" required ng-model="usuario.password">
+                    </div>
+                    <div class="modal-footer">
+                        <div>
+                            <button type="submit" class="btn btn-success btn-lg btn-block" ng-click="iniciaSesion(usuario)">Login</button>
+                        </div>
+                        <div>
+                            <button id="login_lost_btn" type="button" class="btn btn-link">Olvidaste tu contraseña?</button>
+                        </div>
+                    </div>
+                </form>
+                <!-- End # Login Form -->
+
+                <!-- Begin | Lost Password Form -->
+                <form id="lost-form" style="display:none;">
+                   <div class="modal-body">
+                     <div style="padding-top: 10px; padding-bottom: 10px;">
+                       <center>
+                         <h3 style="color:#769e26x"><a href="#">Recupera Contraseña</a></h3>
+                       </center>
+                     </div>
+                       <input id="lost_email" class="form-control" type="text" placeholder="Correo electrónico" required ng-model="usuario.usuario">
+                   </div>
+                   <div class="modal-footer">
+                       <div>
+                         <center>
+                           <button type="button" class="btn btn-success" ng-click="recuperaPassword(usuario.usuario)">Enviar</button>
+                           <button type="button" id="lost_login_btn" class="btn btn-danger" onclick="$('#login-modal').modal('hide');">Cancelar</button>
+                         </center>
+                       </div>
+                  </div>
+              </form>
+              <!-- End | Lost Password Form -->
+
+              <!-- Begin | Register Form -->
+              <form id="register-form" style="display:none;">
+                  <div class="modal-body">
+                    <div style="padding-top: 10px; padding-bottom: 10px;">
+                      <center>
+                        <h3 style="color:#769e26x"><a href="#" id="register_register_btn">Regístrate</a></h3>
+                      </center>
+                    </div>
+                      <input id="register_email" class="form-control" type="text" placeholder="Correo electrónico" required ng-model="usuario.usuario">
+                      <input id="register_password" class="form-control" type="password" placeholder="Contraseña" required ng-model="usuario.password">
+                      <input id="register_confirm" class="form-control" type="password" placeholder="Confirmar contraseña" required>
+                      <input id="register_institution" class="form-control" type="text" placeholder="Institución" required ng-model="usuario.institucion">
+                  </div>
+                  <div class="modal-footer">
+                      <div>
+                        <center>
+                          <button type="button" class="btn btn-success" ng-click="registraUsuario(usuario)">Registrar</button>
+                          <button type="button" id="register_login_btn" class="btn btn-danger" onclick="$('#login-modal').modal('hide');">Cancelar</button>
+                        </center>
+                      </div>
+                  </div>
+              </form>
+              <!-- End | Register Form -->
+          </div>
+          <!-- End # DIV Form -->
+        </div>
+      </div>
+    </div>
+    <!-- END # MODAL LOGIN -->
+
+    <!-- Footer Section -->
+    <footer class="navbar-fixed-bottom">
+      <!-- Copyright -->
+      <div id="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-4">
+              <p class="copyright-text">
+                ©  <script type="text/javascript">
+						          document.write(new Date().getFullYear());
+                   </script>
+                  Todos los derechos reservados
+              </p>
+            </div>
+            <div class="col-md-8 col-sm-8">
+              <ul class="nav nav-inline pull-xs-left">
+                <li class="nav-item">
+                  <a class="nav-link active" href="https://novus.itesm.mx/"><img src="images/BEM-TEC-Logo-Novus.png" height="25" width="" alt="100"/></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="http://tec.mx/es"><img src="images/BEM-TEC-Logo-Tecnologico-de-monterrey.png" height="25" width="" alt="100"/></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="http://tec.mx/es/avisos-de-privacidad">Aviso de privacidad</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright  End-->
+
+    </footer>
+    <!-- Footer Section End-->
+
+    <!-- Go To Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="fa fa-angle-up">
+      </i>
+    </a>
+
+    <div class="bottom"> <a href="#" class="settings"></a> </div>
+
+    <!-- JavaScript & jQuery Plugins -->
+    <!-- jQuery Load -->
+    <script src="assets/js/jquery-min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--Text Rotator-->
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <!--WOW Scroll Spy-->
+    <script src="assets/js/wow.js"></script>
+    <!-- OWL Carousel -->
+    <script src="assets/js/owl.carousel.js"></script>
+
+    <!-- WayPoint -->
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- CounterUp -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- ScrollTop -->
+    <script src="assets/js/scroll-top.js"></script>
+    <!-- Appear -->
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/jquery.vide.js"></script>
+     <!-- All JS plugin Triggers -->
+    <script src="assets/js/main.js"></script>
+    <!--<script src="assets/js/color-switcher.js"></script>-->
+
+    <!-- Script con funcionalidad de modal login y registro -->
+    <script src="assets/js/login.js"></script>
+
+    <script src="assets/js/pieChart.js"></script>
+
+  </body>
+</html>
