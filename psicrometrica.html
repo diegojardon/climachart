@@ -28,32 +28,16 @@
     <!-- Color CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="assets/css/colors/lightblue.css" media="screen" />
 
-    <!-- CSS con estilos de modal login y registro -->
-    <link rel="stylesheet" type="text/css" href="assets/css/loginStyles.css" media="screen" />
+    <!-- Estilos gráfica psicrométrica -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+	  <link rel="stylesheet" href="assets/css/skeleton.css">
+	  <link rel="stylesheet" href="assets/css/style.css">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/pieChart.css" media="screen" />
 
     <!-- Favicon-->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-    <style>
-      .headerTablaCSV{
-        color:white;
-        background-color: #434343;
-      }
-      .headerTablaCSVMeses{
-        color:white;
-        background-color: #00D3F9;
-      }
-      .cellsTablaCSVMeses{
-        /*color: white;
-        background-color: #00D3F9;
-        font-weight: bold;*/
-      }
-    </style>
-
-    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
@@ -132,19 +116,9 @@
       <!-- Container Starts -->
       <div class="container">
         <div class="row">
-          <h1 id="estado" class="section-title wow fadeIn animated" data-wow-delay=".2s"></h1>
-          <center>
-            <h3>Sumario Data Climática</h3>
-          </center>
-            
-            <div class="col-sm-9 col-md-9"></div>
-            <div class="col-sm-2 col-md-2" style="padding-bottom: 15px;">
-              <button id="graficarBtn" type="button" class="btn btn-success" style="float:right; font-weight: bold; background-color: #053570; border-color: #053570;">GRAFICAR</button>
-            </div>
-            <div class="col-sm-1 col-md-1"></div>
-            
-          <!-- Armar aqui la tabla con la info del archivo CSV -->
-          <div id="csvData" style="padding-top: 15px;"></div>
+          <h1 class="section-title wow fadeIn animated" data-wow-delay=".2s">Gráfica Psicrométrica</h1>
+         
+          <!-- AQUI VA EL CÓDIGO DE LA GRÁFICA -->
 
           <p class="section-subcontent"></p>
           <p class="section-subcontent"></p>
@@ -153,7 +127,7 @@
     </section><!-- Service Main Section Ends -->
 
     <!-- Footer Section -->
-    <footer class="navbar-fixed-bottom">
+    <footer style="margin-bottom: 0px;">
       <!-- Copyright -->
       <div id="copyright">
         <div class="container">
@@ -231,6 +205,11 @@
 
     <script src="assets/js/chart/epw2json.js"></script>
 
+    <script type="text/javascript" src="assets/js/psychrometricChart.js"></script>
+    <script src="assets/js/queue.v1.min.js"></script>
+    <script src="assets/js/topojson.js"></script>
+    <script type="text/javascript" src="assets/js/psychrometric.js"></script>
+
     <script type="text/javascript">
       $(document).ready(function(){
         var sPageURL = window.location.search.substring(1);
@@ -242,8 +221,6 @@
           }
         }
 
-        $("#estado").append(transformaEstado(estado));
-
         var csv_file = obtieneNombreArchivoCSV(estado, "mensual");
         cargarTabla(csv_file);
 
@@ -254,7 +231,7 @@
         //});
 
         $("#graficarBtn").click(function(){
-            document.location.href = "psicrometrica.html?edo=" + estado;
+            document.location.href = "psicrometrica.html";
         });
 
       });

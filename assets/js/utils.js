@@ -1,3 +1,140 @@
+function cargarTabla(nombreArchivo){
+    var url = "http://climacharts.com.mx/php/csvToJson.php";
+    var data = {nombreArchivo: nombreArchivo};
+
+    fetch(url, {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers:{
+            'Content-Type': 'application/json'
+        }
+    }).then(res => res.json())
+    .catch(error => console.error('Error:', error))
+    .then(response => {
+        console.log('Exito:', response)
+        generaTabla(response);
+    });
+}
+
+function generaTabla(data){
+    var col = [];
+    for (var i = 0; i < data.info.length; i++) {
+        for (var key in data.info[i]) {
+            if (col.indexOf(key) === -1) {
+                if(key == "name"){
+                    col[0] = key;
+                }
+                if(key == "units"){
+                    col[2] = key;    
+                }
+                if(key == "data"){
+                    col[1] = key;    
+                }
+            }
+        }
+    }
+
+    // Crear tabla dinámica
+    var table = document.createElement("table");
+    table.setAttribute("id", "csvData");
+    table.setAttribute("class", "table table-bordered table-hover");
+
+    // Crear el header de la tabla con los header obtenidos anteriormente
+
+    var tr = table.insertRow(-1);                   // Fila de la tabla
+
+    for (var i = 0; i < col.length; i++) {
+        var th = document.createElement("th");      // Header de la tabla
+        th.setAttribute("class", "headerTablaCSV");
+        if(col[i] == "name"){
+            th.innerHTML = "Medias Mensuales";
+            tr.appendChild(th);
+        }
+        if(col[i] == "units"){
+            th.innerHTML = "Unidades";
+            tr.appendChild(th);
+        }
+        if(col[i] == "data"){
+            for(var j = 0; j< 12; j++){
+                th = document.createElement("th");
+                th.setAttribute("class", "headerTablaCSVMeses");
+                th.innerHTML = obtieneMes(j);
+                tr.appendChild(th);
+            }
+
+        }
+        
+    }
+
+    // Agregar la información del Json como filas en la tabla
+    for (var i = 0; i < data.info.length; i++) {
+
+        tr = table.insertRow(-1);
+
+        for (var j = 0; j < col.length; j++) {
+            if(col[j] == "data"){
+                for(var k = 0; k < 12; k++){
+                    var tabCell = tr.insertCell(-1);
+                    tabCell.innerHTML = parseFloat(data.info[i][col[j]][k]).toFixed(3);
+                    tabCell.setAttribute("class", "cellsTablaCSVMeses");
+                }
+            }else{
+                var tabCell = tr.insertCell(-1);
+                tabCell.innerHTML = data.info[i][col[j]];
+                tabCell.setAttribute("style", "font-weight: bold;");
+                tabCell.setAttribute("class", "headerTablaCSV");
+            }
+        }
+    }
+
+    var divContainer = document.getElementById("csvData");
+    divContainer.innerHTML = "";
+    divContainer.appendChild(table);
+
+}
+
+function obtieneMes(numMes){
+    switch(numMes){
+        case 0:
+            return "Ene";
+        break;
+        case 1:
+            return "Feb";
+        break;
+        case 2:
+            return "Mar";
+        break;
+        case 3:
+            return "Abr";
+        break;
+        case 4:
+            return "May";
+        break;
+        case 5:
+            return "Jun";
+        break;
+        case 6:
+            return "Jul";
+        break;
+        case 7:
+            return "Ago";
+        break;
+        case 8:
+            return "Sep";
+        break;
+        case 9:
+            return "Oct";
+        break;
+        case 10:
+            return "Nov";
+        break;
+        case 11:
+            return "Dic";
+        break;
+    }
+
+}
+
 function transformaEstado(estado){
     switch(estado){
         case "BajaNor":
@@ -204,4 +341,110 @@ function obtieneNombreArchivoEPW(estado){
     }
 
     return epw_raw_path + epw_raw_prefix + ep_raw_name + epw_raw_sufix;
+}
+
+function obtieneNombreArchivoCSV(estado, frecuencia){
+  var csv_sufix = "-MENSUAL.csv";
+  var csv_path = "../csv/" + frecuencia + "/";
+  var csv_name = "";
+    switch(estado){
+        case "BajaNor":
+            csv_name = "";
+        break;
+        case "BajaSur":
+            csv_name = "LA-PAZ";
+        break;
+        case "Coah":
+            csv_name = "SALTILLO";
+        break;
+        case "Chih":
+            csv_name = "CHIHUAHUA";
+        break;
+        case "Dura":
+            csv_name = "DURANGO";
+        break;
+        case "Sina":
+            csv_name = "CULIACAN";
+        break;
+        case "Sono":
+            csv_name = "HERMOSILLO";
+        break;
+        case "Zaca":
+            csv_name = "ZACATECAS";
+        break;
+        case "NvoL":
+            csv_name = "MONTERREY";
+        break;
+        case "SanLu":
+            csv_name = "SAN-LUIS-POTOSI";
+        break;
+        case "Tama":
+            csv_name = "CIUDAD-VICTORIA";
+        break;
+        case "Aguas":
+            csv_name = "AGUASCALIENTES";
+        break;
+        case "Coli":
+            csv_name = "COLIMA";
+        break;
+        case "Jali":
+            csv_name = "";
+        break;
+        case "Micho":
+            csv_name = "MORELIA";
+        break;
+        case "Naya":
+            csv_name = "TEPIC";
+        break;
+        case "Camp":
+            csv_name = "CAMPECHE";
+        break;
+        case "Oaxa":
+            csv_name = "OAXACA";
+        break;
+        case "Pueb":
+            csv_name = "PUEBLA";
+        break;
+        case "Tabas":
+            csv_name = "VILLAHERMOSA";
+        break;
+        case "Tlax":
+            csv_name = "TLAXCALA";
+        break;
+        case "Cdmx":
+            csv_name = "CDMX";
+        break;
+        case "Guana":
+            csv_name = "GUANAJUATO";
+        break;
+        case "Guer":
+            csv_name = "CHILPANCINGO";
+        break;
+        case "Hida":
+            csv_name = "PACHUCA";
+        break;
+        case "EdoMex":
+            csv_name = "TOLUCA";
+        break;
+        case "More":
+            csv_name = "CUERNAVACA";
+        break;
+        case "Quere":
+            csv_name = "QUERETARO";
+        break;
+        case "Vera":
+            csv_name = "";
+        break;
+        case "Chia":
+            csv_name = "TUXTLA-GUTIERREZ";
+        break;
+        case "Qroo":
+            csv_name = "CHETUMAL";
+        break;
+        case "Yuca":
+            csv_name = "";
+        break;
+    }
+
+    return csv_path + csv_name + csv_sufix;
 }
