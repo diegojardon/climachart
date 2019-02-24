@@ -41,16 +41,19 @@ function psychrometricChart() {
 	height,
 	context,
 	ar = 7/8,
-	dbMin = -10,
-	dbMax = 70,
+	dbMin = 0,
+	dbMax = 60,
 	hrMin = 0,
 	hrMax = 0.030,
 	dropZone,
 	epwPre,
-	margin = {top: 20, right: 50, bottom: 170, left: 15},
+	margin = {top: 20, right: 50, bottom: 300, left: 15},
 	offset = offset = (($(window).width() <= 600) ? -10: 0),
-	hExtent = [7,17],
+	hExtent = [0,23],
 	mExtent = [0, 11];
+	dExtent = [0, 30];
+
+	//En estos valores de los extent se pone el rango con el que se quiere inicializar cada slider
 
 	var monthAbb = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dec"];
 
@@ -70,13 +73,18 @@ function psychrometricChart() {
 
 	var monthScale = d3.scale.linear()
 		.domain([0, 11]);
-		
 
+	var dayScale = d3.scale.linear()
+		.domain([0, 30]);
+	
 	var hBrush = d3.svg.brush()
 		.on("brush", hbrushMove);
 
 	var mBrush = d3.svg.brush()
 		.on("brush", mbrushMove);
+
+	var dBrush = d3.svg.brush()
+		.on("brush", dbrushMove);
 
 
 	var w = new globe()
@@ -98,8 +106,10 @@ function psychrometricChart() {
 
 			hourScale.range([0, (width - margin.left - margin.right)]);
 			monthScale.range([0, (width - margin.left - margin.right)]);
+			dayScale.range([0, (width - margin.left - margin.right)]);
 			hBrush.x(hourScale).extent(hExtent);
-			mBrush.x(monthScale).extent(mExtent)
+			mBrush.x(monthScale).extent(mExtent);
+			dBrush.x(dayScale).extent(dExtent);
 
 
 			var avgPressure = d3.sum(data.weather, function(d) { return d.bp; }) / data.weather.length;
@@ -202,7 +212,6 @@ function psychrometricChart() {
 			//draw the axis
 			var dbAxis = d3.svg.axis().scale(dbScale).tickPadding(8);
 			var hrAxis = d3.svg.axis().scale(hrScale).orient("right").tickFormat(function(d) { return d * 1000; });
-
 			psychChart.append("g")
 				.attr("class", "db axis")
 				.attr("id", "dbAxis")
@@ -323,25 +332,41 @@ function psychrometricChart() {
 				.attr("r", (width < 600) ? 2: 3)
 				.attr("fill", "#1c9099")
 				.attr("fill-opacity", .2)
-				.classed("nir", function(d) { return (d.date.getHours() < hExtent[0] || d.date.getHours() > hExtent[1] || d.date.getMonth() < mExtent[0] || d.date.getMonth() > mExtent[1]); });
+				.classed("nir", function(d) { 
+					return (d.date.getHours() < hExtent[0] || d.date.getHours() > hExtent[1] || d.date.getMonth() < mExtent[0] || d.date.getMonth() > mExtent[1] || d.date.getDate() < dExtent[0] || d.date.getDate() > dExtent[1]); 
+					});
 
 
 			//set up the sliders
 			var constraints = psychChart.append("g")
 				.attr("transform", "translate(0," + (height - margin.bottom + 60) + ")");
 
+			var offsetText = 30;
+
+			//Slider de horas
 			constraints.append("g")
 				.attr("class", "hourAxis")
+				.attr("id", "hourAxis")
 				.call(d3.svg.axis()
 					.scale(hourScale)
 					.orient("bottom")
 					.tickFormat(function(d) { 
-						var suffix = ((d + 1) >= 12 && d != 23)? " PM": " AM";
+						var suffix = "";
+						if(d == 0)
+						   suffix = "AM";
+						if(d == 12)
+							suffix = "PM";
+
+						/** 
+						* DAJR -- Descomentar esta linea y comentar las de arriba para mostrar la escala
+						con el slider original
+						**/
+						//var suffix = ((d + 1) >= 12 && d != 23)? " PM": " AM";
 						return ((d + 12) % 12 + 1) + suffix;
 					})
 					.tickSize(0)
 					.tickPadding(12)
-					.tickValues([0, 5, 11, 17, 23]))
+					.tickValues([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]))
 				.select(".domain")
 				.select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
 					.attr("class", "halo");
@@ -358,10 +383,60 @@ function psychrometricChart() {
 				.attr("height",6)
 				.attr("y", -3);
 
+			constraints.select("#hourAxis")
+				.append("text")
+				.text("Horas")
+					.attr("id", "hourAxisText")
+					.attr("font-weight", "bold")
+					.attr("text-anchor", "middle")
+					.attr("x", ((width) / 2) - offsetText)
+          			.attr("y", 45);
 
+			//Slider de días			
+			constraints.append("g")
+				.attr("class", "dayAxis")
+				.attr("id", "dayAxis")
+				.attr("transform", "translate(0," + ((width < 600) ? 60: 75) + ")")
+				.call(d3.svg.axis()
+					.scale(dayScale)
+					.orient("bottom")
+					.tickFormat(function(d) { 
+						return d+1;
+					})
+					.tickSize(0)
+					.tickPadding(12)
+					.tickValues([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]))
+				.select(".domain")
+				.select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
+					.attr("class", "halo");
+
+			var dBrushg = constraints.append("g")
+				.attr("transform", "translate(0," + ((width < 600) ? 60: 75) + ")")
+				.attr("class", "brush")
+				.call(dBrush);
+
+			dBrushg.selectAll(".resize").append("circle")
+				.attr("class", "handle")
+				.attr("r", ((width < 600) ? 4: 6));
+
+			dBrushg.selectAll("rect")
+				.attr("height",6)
+				.attr("y", -3);
+
+			constraints.select("#dayAxis")
+				.append("text")
+				.text("Días")
+					.attr("id", "dayAxisText")
+					.attr("font-weight", "bold")
+					.attr("text-anchor", "middle")
+					.attr("x", ((width) / 2) - offsetText)
+          			.attr("y", 45);
+
+			//Slider de meses
 			constraints.append("g")
 				.attr("class", "monthAxis")
-				.attr("transform", "translate(0," + ((width < 600) ? 45: 60) + ")")
+				.attr("id", "monthAxis")
+				.attr("transform", "translate(0," + ((width < 600) ? 135: 150) + ")")
 				.call(d3.svg.axis()
 					.scale(monthScale)
 					.orient("bottom")
@@ -375,7 +450,7 @@ function psychrometricChart() {
 					.attr("class", "halo");
 
 			var mBrushg = constraints.append("g")
-				.attr("transform", "translate(0," + ((width < 600) ? 45: 60) + ")")
+				.attr("transform", "translate(0," + ((width < 600) ? 135: 150) + ")")
 				.attr("class", "brush")
 				.call(mBrush);
 
@@ -387,13 +462,16 @@ function psychrometricChart() {
 				.attr("height",6)
 				.attr("y", -3);
 
+			constraints.select("#monthAxis")
+				.append("text")
+				.text("Meses")
+					.attr("id", "monthAxisText")
+					.attr("font-weight", "bold")
+					.attr("text-anchor", "middle")
+					.attr("x", ((width) / 2) - offsetText)
+          			.attr("y", 45);
 
-
-
-
-
-			
-			
+		
 			//set up the drop zone for the epw file
 			dropZone = context;
 
@@ -471,14 +549,19 @@ function psychrometricChart() {
 		else {
 			hExtent = h.map(Math.round);
 
-			if (hExtent[0] >= hExtent[1]) {
+			if (hExtent[0] > hExtent[1]) {
 				hExtent[0] = Math.floor(h[0]);
 				hExtent[1] = Math.ceil(h[1]);
+			}else{
+				if (hExtent[0] == hExtent[1]) {
+					hExtent[0] = Math.floor(h[0]);
+					hExtent[1] = Math.ceil(h[0]);
+				}
 			}
 		}
-
+		
 		d3.select(this).call(hBrush.extent(hExtent));
-		d3.selectAll(".hours").classed("nir", function(d) { return (d.date.getHours() < hExtent[0] || d.date.getHours() > hExtent[1] || d.date.getMonth() < mExtent[0] || d.date.getMonth() > mExtent[1]); }); 
+		d3.selectAll(".hours").classed("nir", function(d) { return (d.date.getHours() < hExtent[0] || d.date.getHours() > hExtent[1] || d.date.getMonth() < mExtent[0] || d.date.getMonth() > mExtent[1] || d.date.getDate() < dExtent[0] || d.date.getDate() > dExtent[1]); }); 
 
 	}
 
@@ -501,11 +584,32 @@ function psychrometricChart() {
 		}
 
 		d3.select(this).call(mBrush.extent(mExtent));
-		d3.selectAll(".hours").classed("nir", function(d) { return (d.date.getHours() < hExtent[0] || d.date.getHours() > hExtent[1] || d.date.getMonth() < mExtent[0] || d.date.getMonth() > mExtent[1]); });
+		d3.selectAll(".hours").classed("nir", function(d) { return (d.date.getHours() < hExtent[0] || d.date.getHours() > hExtent[1] || d.date.getMonth() < mExtent[0] || d.date.getMonth() > mExtent[1] || d.date.getDate() < dExtent[0] || d.date.getDate() > dExtent[1]); });
 
 	}
 
+	function dbrushMove() {
+		var m = dBrush.extent();
 
+		if (d3.event.mode === "move") {
+			var d0 = Math.round(m[0]),
+			d1 = d0 + Math.round(m[1] - m[0]);
+			dExtent = [d0, d1]
+		}
+
+		else {
+			dExtent = m.map(Math.round);
+
+			if (dExtent[0] >= dExtent[1]) {
+				dExtent[0] = Math.floor(m[0]);
+				dExtent[1] = Math.ceil(m[1]);
+			}
+		}
+
+		d3.select(this).call(dBrush.extent(dExtent));
+		d3.selectAll(".hours").classed("nir", function(d) { return (d.date.getHours() < hExtent[0] || d.date.getHours() > hExtent[1] || d.date.getMonth() < mExtent[0] || d.date.getMonth() > mExtent[1] || d.date.getDate() < dExtent[0] || d.date.getDate() > dExtent[1]); });
+
+	}
 
 	chart.width = function(value) {
     	if (!arguments.length) return width;
@@ -689,6 +793,9 @@ function psychrometrics() {
 	this.tempCurves = function() {
 		var t = [];
 		var psych = this;
+		/** 
+		* DAJR -- EL i+=10 es para ajustar el incremento en el eje de las X, en este caso de 10 en 10
+		**/
 		for (var i=tempRange[0]; i<tempRange[1]; i+=5) {
 			t.push(i);
 		}
@@ -708,7 +815,7 @@ function psychrometrics() {
 	this.hrCurves = function() {
 		var h = [];
 
-		for (var i=humidityRange[0]; i<=humidityRange[1]; i+=0.005) {
+		for (var i=humidityRange[0]; i<=humidityRange[1]; i+=0.004) {
 			h.push(i);
 		}
 		h.push(humidityRange[1]);
