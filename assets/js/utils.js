@@ -243,7 +243,7 @@ function obtieneNombreArchivoEPW(estado){
   var ep_raw_name = "";
     switch(estado){
         case "BajaNor":
-            ep_raw_name = "";
+            ep_raw_name = "MEXICALI";
         break;
         case "BajaSur":
             ep_raw_name = "LA-PAZ";
@@ -282,7 +282,7 @@ function obtieneNombreArchivoEPW(estado){
             ep_raw_name = "COLIMA";
         break;
         case "Jali":
-            ep_raw_name = "";
+            ep_raw_name = "GUADALAJARA";
         break;
         case "Micho":
             ep_raw_name = "MORELIA";
@@ -327,7 +327,7 @@ function obtieneNombreArchivoEPW(estado){
             ep_raw_name = "QUERETARO";
         break;
         case "Vera":
-            ep_raw_name = "";
+            ep_raw_name = "VERACRUZ";
         break;
         case "Chia":
             ep_raw_name = "TUXTLA-GUTIERREZ";
@@ -336,7 +336,7 @@ function obtieneNombreArchivoEPW(estado){
             ep_raw_name = "CHETUMAL";
         break;
         case "Yuca":
-            ep_raw_name = "";
+            ep_raw_name = "MERIDA";
         break;
     }
 
@@ -349,7 +349,7 @@ function obtieneNombreArchivoCSV(estado, frecuencia){
   var csv_name = "";
     switch(estado){
         case "BajaNor":
-            csv_name = "";
+            csv_name = "MEXICALI";
         break;
         case "BajaSur":
             csv_name = "LA-PAZ";
@@ -388,7 +388,7 @@ function obtieneNombreArchivoCSV(estado, frecuencia){
             csv_name = "COLIMA";
         break;
         case "Jali":
-            csv_name = "";
+            csv_name = "GUADALAJARA";
         break;
         case "Micho":
             csv_name = "MORELIA";
@@ -433,7 +433,7 @@ function obtieneNombreArchivoCSV(estado, frecuencia){
             csv_name = "QUERETARO";
         break;
         case "Vera":
-            csv_name = "";
+            csv_name = "VERACRUZ";
         break;
         case "Chia":
             csv_name = "TUXTLA-GUTIERREZ";
@@ -442,7 +442,7 @@ function obtieneNombreArchivoCSV(estado, frecuencia){
             csv_name = "CHETUMAL";
         break;
         case "Yuca":
-            csv_name = "";
+            csv_name = "MERIDA";
         break;
     }
 
