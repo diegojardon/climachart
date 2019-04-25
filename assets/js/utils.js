@@ -68,21 +68,24 @@ function generaTabla(data){
 
     // Agregar la información del Json como filas en la tabla
     for (var i = 0; i < data.info.length; i++) {
-
-        tr = table.insertRow(-1);
-
-        for (var j = 0; j < col.length; j++) {
-            if(col[j] == "data"){
-                for(var k = 0; k < 12; k++){
-                    var tabCell = tr.insertCell(-1);
-                    tabCell.innerHTML = parseFloat(data.info[i][col[j]][k]).toFixed(3);
-                    tabCell.setAttribute("class", "cellsTablaCSVMeses");
-                }
-            }else{
-                var tabCell = tr.insertCell(-1);
-                tabCell.innerHTML = data.info[i][col[j]];
-                tabCell.setAttribute("style", "font-weight: bold;");
-                tabCell.setAttribute("class", "headerTablaCSV");
+        if(i != 2){
+            //Se omite la fila Depression (Avg Daily)
+            tr = table.insertRow(-1);
+            for (var j = 0; j < col.length; j++) {
+                    
+                    if(col[j] == "data"){
+                        for(var k = 0; k < 12; k++){
+                            var tabCell = tr.insertCell(-1);
+                            tabCell.innerHTML = parseFloat(data.info[i][col[j]][k]).toFixed(1);
+                            tabCell.setAttribute("class", "cellsTablaCSVMeses");
+                        }
+                    }else{
+                        var tabCell = tr.insertCell(-1);
+                        tabCell.innerHTML = traduceTituloFilas(data.info[i][col[j]]);
+                        tabCell.setAttribute("style", "font-weight: bold;");
+                        tabCell.setAttribute("class", "headerTablaCSV");
+                    }
+            
             }
         }
     }
@@ -91,6 +94,57 @@ function generaTabla(data){
     divContainer.innerHTML = "";
     divContainer.appendChild(table);
 
+}
+
+function traduceTituloFilas(tituloFila){
+    switch(tituloFila){
+        case "Dry Bulb Temp (Avg Daily)":
+            return "Temperatura de bulbo seco (promedio mensual)";
+        break;
+        case "Wet Bulb Temp (Avg Daily)":
+            return "Temperatura de bulbo húmedo (promedio mensual)";
+        break;
+        case "Dew Point (Avg Daily)":
+            return "Punto de rocío (promedio mensual)";
+        break;
+        case "Rel Humidity (Avg Daily)":
+            return "Humedad relativa (promedio mensual)";
+        break;
+        case "Global Horiz Rad (Avg Daily)":
+            return "Radiación global horizontal (promedio horas)";
+        break;
+        case "Direct Norm Rad (Avg Daily)":
+            return "Radiación directa normal (promedio horas)";
+        break;
+        case "Diffuse Rad (Avg Daily)":
+            return "Radiación difusa normal (promedio horas)";
+        break;
+        case "Wind Speed (Avg Daily)":
+            return "Velocidad del viento (promedio mensual)";
+        break;
+        case "Wind Direction (Avg Daily)":
+            return "Dirección del viento (promedio mensual)";
+        break;
+        case "Sky Cover (Avg Daily)":
+            return "Nubosidad Unidad";
+        break;
+        case "degrees C":
+            return "°C";
+        break;
+        case "percent":
+            return "%";
+        break;
+        case "(Wh/sq.m)":
+            return "Wh/m2";
+        break;
+        case "ms":
+            return "m/s";
+        break;
+        case "degrees":
+            return "Grados";
+        break;
+    }
+    return tituloFila;
 }
 
 function obtieneMes(numMes){

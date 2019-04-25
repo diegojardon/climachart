@@ -95,15 +95,15 @@
                 <li class="nav-item dropdown">
                   <a class="nav-link" href="que_es.html" role="button" aria-haspopup="true" aria-expanded="false">¿Qué es?</a>
                 </li>
-                <li class="nav-item dropdown">
+                <!--<li class="nav-item dropdown">
                   <a class="nav-link" href="aprende.html" role="button" aria-haspopup="true" aria-expanded="false">Aprende más</a>
-                </li>
+                </li>-->
                 <li class="nav-item dropdown">
                   <a class="nav-link" href="equipo.html" role="button" aria-haspopup="true" aria-expanded="false">Sobre el equipo</a>
                 </li>
-                <li class="nav-item dropdown">
+                <!--<li class="nav-item dropdown">
                   <a class="nav-link" href="ayuda.html" role="button" aria-haspopup="true" aria-expanded="false">Ayuda</a>
-                </li>
+                </li>-->
                 <!--<li class="nav-item dropdown">
                   <a class="nav-link" href="graficar.html" role="button" aria-haspopup="true" aria-expanded="false">Graficar</a>
                 </li>-->
@@ -126,13 +126,26 @@
           <h1 class="section-title wow fadeIn animated" data-wow-delay=".2s">
            ¡Bienvenidos!
           </h1>
-          <p class="section-subcontent">En un mundo amenazado por el calentamiento global y el cambio climático; en el cual más del 96% de la energía generada por el ser humano es o altamente contaminante (carbón, gas y petróleo) o peligrosa(nuclear); y de la cual más de la mitad es empleada en algún tipo de edificio; es fácil ver la necesidad de contar con arquitectos capacitados en el diseño bioclimático, cuyos postulados al proyectar un inmueble son: [01] adaptación al clima local; [02] máximo confort humano; [03] mínimo consumo energético(renovable); y [04] respeto por el medio ambiente.
-            Es en este escenario donde Clima Chart México se presenta como una herramienta educativa poderosa para la enseñanza del diseño bioclimático a la nueva generación de arquitectos que salvaran al planeta.</p>
+          <p>En un mundo amenazado por el calentamiento global y el cambio climático; en el cual más del 96% de la energía generada por el ser humano es o altamente contaminante (carbón, gas y petróleo) o peligrosa(nuclear); y de la cual más de la mitad es empleada en algún tipo de edificio; es fácil ver la necesidad de contar con arquitectos capacitados en el diseño bioclimático, cuyos postulados al proyectar un inmueble son:</p>
+          <p>
+            <ol>
+              <li>Adaptación al clima local</li>
+              <li>Máximo confort humano</li>
+              <li>Mínimo consumo energético(renovable)</li>
+              <li>Respeto por el medio ambiente</li>
+            </ol>
+          </p>
+          <p>Es en este escenario donde Clima Chart México se presenta como una herramienta educativa poderosa para la enseñanza del diseño bioclimático a la nueva generación de arquitectos que salvaran al planeta.</p>
          
+          <h1 class="section-title wow fadeIn animated" data-wow-delay=".2s">
+            Selecciona el estado
+          </h1>
+          <div id="map" style="margin: auto;"></div>
+          <p class="section-subcontent"></p>
+          <p class="section-subcontent"></p>
         </div>
       </div><!-- Container Ends -->
     </section><!-- Service Main Section Ends -->
-
 
     <!-- INICIA # MODAL LOGIN -->
     <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
@@ -310,7 +323,8 @@
 
     <script src="assets/js/pieChart.js"></script>
 
-
+    <script src="assets/js/map/mapdata.js"></script>
+    <script src="assets/js/map/countrymap.js"></script>
 
     <script type="text/javascript">
 
