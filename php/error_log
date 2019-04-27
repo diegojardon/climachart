@@ -1,0 +1,522 @@
+[03-Feb-2019 20:41:39 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:41:39 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:41:39 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:41:39 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:42:37 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:42:37 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:42:37 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:42:37 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:43:16 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:43:16 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:43:16 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:43:16 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:43:45 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:43:45 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:43:45 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:43:45 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:44:26 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:44:26 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:44:26 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:44:26 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:47:42 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:47:42 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:47:42 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:47:42 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:48:18 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:48:18 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:48:18 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:48:18 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:48:39 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:48:39 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:48:39 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:48:39 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:48:46 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:48:46 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:48:46 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:48:46 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:49:38 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:49:38 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:49:38 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:49:38 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:49:38 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:49:38 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:50:36 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:50:36 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:50:36 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:50:36 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:50:36 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:50:36 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:51:09 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:51:09 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:51:09 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:51:09 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:51:09 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:51:09 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:51:09 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:51:09 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:53:42 UTC] PHP Parse error:  syntax error, unexpected '$resultado' (T_VARIABLE) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:54:06 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:54:06 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:54:06 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:54:06 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:54:06 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:54:06 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:03 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:03 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:03 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:03 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:03 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:03 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:05 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:05 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:05 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:05 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:05 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:05 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:06 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:06 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:06 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:06 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:06 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:06 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:06 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:06 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:06 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:06 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:06 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:06 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:06 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:06 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:06 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:06 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:06 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:06 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:07 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:07 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:07 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:07 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:07 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:07 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:07 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:07 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:07 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:07 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:07 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:07 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:07 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:07 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:07 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:07 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:55:07 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:55:07 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:56:29 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:56:29 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:56:29 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:56:29 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:56:29 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:56:29 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:56:29 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:56:29 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:56:34 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:56:34 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:56:34 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:56:34 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:56:34 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:56:34 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:56:34 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:56:34 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:56:46 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:56:46 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:56:46 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:56:46 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:56:46 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:56:46 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:04 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:04 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:04 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:04 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:04 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:04 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:09 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:09 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:09 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:09 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:09 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:09 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:09 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:09 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:09 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:09 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:09 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:09 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:10 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:10 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:10 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:10 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:10 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:10 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:10 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:10 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:10 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:57:46 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:46 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:46 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:57:46 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:14 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:14 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:14 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:14 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:14 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:14 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:49 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:49 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:49 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:49 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:49 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:49 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:54 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:54 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:54 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:54 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:54 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:54 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 20:59:56 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 21:00:34 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:00:34 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:00:34 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:00:34 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:00:34 UTC] PHP Fatal error:  Call to undefined function is_empty() in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 29
+[03-Feb-2019 21:01:06 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:01:06 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:01:06 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:01:06 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:01:06 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 21:01:06 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 21:02:03 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:02:03 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:02:03 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:02:03 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:02:03 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 21:02:03 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 21:03:00 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:03:00 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:03:00 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:03:00 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:03:00 UTC] PHP Notice:  Undefined offset: -1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 21:03:00 UTC] PHP Notice:  Undefined index: name in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 30
+[03-Feb-2019 21:03:34 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:03:34 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:03:34 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:03:34 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:05:14 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:05:14 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:05:14 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:05:14 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:13:13 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:13:13 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:13:13 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 1 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 2 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 2 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 2 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 2 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 2 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 2 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 2 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 2 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 2 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 2 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 2 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 2 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 3 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 3 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 3 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 3 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 3 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 3 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 3 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 3 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 3 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 3 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 3 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 3 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 4 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 4 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 4 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 4 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 4 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 4 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 4 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 4 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 4 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 4 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 4 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 4 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 5 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 5 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 5 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 5 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 5 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 5 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 5 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 5 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 5 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 5 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 5 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 5 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 6 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 6 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 6 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 6 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 6 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 6 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 6 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 6 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 6 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 6 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 6 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 6 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 7 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 7 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 7 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 7 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 7 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 7 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 7 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 7 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 7 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 7 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 7 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 7 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 8 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 8 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 8 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 8 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 8 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 8 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 8 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 8 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 8 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 8 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 8 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 8 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 9 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 9 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 9 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 9 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 9 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 9 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 9 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 9 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 9 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 9 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 9 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 9 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 10 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 10 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 10 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 10 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 10 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 10 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 10 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 10 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 10 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 10 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 10 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 10 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:13:13 UTC] PHP Notice:  Undefined offset: 11 in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 42
+[03-Feb-2019 21:14:00 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:14:00 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:14:00 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:14:00 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:15:23 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:15:23 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:15:23 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:15:23 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:16:10 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:16:10 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:16:10 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:16:10 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:17:20 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:17:20 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:17:20 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:17:20 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:20:00 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:20:00 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:20:01 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[03-Feb-2019 21:20:01 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:01:08 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:01:08 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:01:08 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:01:08 UTC] PHP Notice:  Undefined property: stdClass::$frecuenciaArchivo in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 15
+[04-Feb-2019 02:01:08 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 15
+[04-Feb-2019 02:01:08 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 15
+[04-Feb-2019 02:01:08 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 15
+[04-Feb-2019 02:02:02 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:02:02 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:02:02 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:02:02 UTC] PHP Notice:  Undefined property: stdClass::$frecuenciaArchivo in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 15
+[04-Feb-2019 02:02:02 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 15
+[04-Feb-2019 02:02:02 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 15
+[04-Feb-2019 02:02:02 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 15
+[04-Feb-2019 02:06:28 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:06:28 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:06:28 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:06:28 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 19
+[04-Feb-2019 02:06:28 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 52
+[04-Feb-2019 02:07:16 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:07:17 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:07:17 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:07:17 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 19
+[04-Feb-2019 02:07:17 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 52
+[04-Feb-2019 02:07:53 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:07:53 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:07:53 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:07:53 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 19
+[04-Feb-2019 02:07:53 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 52
+[04-Feb-2019 02:09:02 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:09:02 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:09:02 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:10:31 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:10:31 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:10:31 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:10:31 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 19
+[04-Feb-2019 02:10:31 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 52
+[04-Feb-2019 02:11:54 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:11:54 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:11:54 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:11:54 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 19
+[04-Feb-2019 02:11:54 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 52
+[04-Feb-2019 02:12:17 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:12:17 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:12:17 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:12:17 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 19
+[04-Feb-2019 02:12:17 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 52
+[04-Feb-2019 02:12:51 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:12:51 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:12:51 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:12:51 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:12:51 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 19
+[04-Feb-2019 02:12:51 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 52
+[04-Feb-2019 02:16:59 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:16:59 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:16:59 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:16:59 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:16:59 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[04-Feb-2019 02:16:59 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 55
+[04-Feb-2019 02:17:13 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:17:13 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:17:13 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:17:13 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:17:13 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[04-Feb-2019 02:17:13 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 55
+[04-Feb-2019 02:18:22 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:18:22 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:18:22 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:18:22 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[04-Feb-2019 02:18:22 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 55
+[04-Feb-2019 02:19:14 UTC] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:19:14 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user 'carigodoy'@'localhost' (using password: NO) in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:19:14 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:19:14 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[04-Feb-2019 02:19:14 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 55
+[04-Feb-2019 02:19:57 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:19:57 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[04-Feb-2019 02:19:57 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 55
+[04-Feb-2019 02:26:04 UTC] PHP Notice:  Trying to get property of non-object in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 14
+[04-Feb-2019 02:26:04 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[04-Feb-2019 02:26:04 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 55
+[04-Feb-2019 18:56:06 UTC] PHP Warning:  fopen(../csv/mensual/-MENSUAL.csv): failed to open stream: No such file or directory in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[04-Feb-2019 18:56:06 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 57
+[29-Mar-2019 15:27:40 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 57
+[29-Mar-2019 17:33:00 UTC] PHP Warning:  fopen(../csv/mensual/-MENSUAL.csv): failed to open stream: No such file or directory in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[29-Mar-2019 17:33:00 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 57
+[29-Mar-2019 17:33:16 UTC] PHP Warning:  fopen(../csv/mensual/-MENSUAL.csv): failed to open stream: No such file or directory in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[29-Mar-2019 17:33:16 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 57
+[24-Apr-2019 17:08:59 UTC] PHP Warning:  fopen(../csv/mensual/HERMOSILLO-MENSUAL.csv): failed to open stream: No such file or directory in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[24-Apr-2019 17:08:59 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 57
+[24-Apr-2019 17:09:21 UTC] PHP Warning:  fopen(../csv/mensual/HERMOSILLO-MENSUAL.csv): failed to open stream: No such file or directory in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[24-Apr-2019 17:09:21 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 57
+[24-Apr-2019 17:09:26 UTC] PHP Warning:  fopen(../csv/mensual/-MENSUAL.csv): failed to open stream: No such file or directory in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[24-Apr-2019 17:09:26 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 57
+[24-Apr-2019 17:09:32 UTC] PHP Warning:  fopen(../csv/mensual/SALTILLO-MENSUAL.csv): failed to open stream: No such file or directory in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[24-Apr-2019 17:09:32 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 57
+[25-Apr-2019 16:44:50 UTC] PHP Warning:  fopen(../csv/mensual/SALTILLO-MENSUAL.csv): failed to open stream: No such file or directory in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[25-Apr-2019 16:44:50 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 57
+[25-Apr-2019 18:22:11 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 57
+[25-Apr-2019 19:24:20 UTC] PHP Warning:  fopen(../csv/mensual/HERMOSILLO-MENSUAL.csv): failed to open stream: No such file or directory in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[25-Apr-2019 19:24:20 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 57
+[25-Apr-2019 20:07:11 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 57
+[25-Apr-2019 20:18:51 UTC] PHP Warning:  fopen(../csv/mensual/HERMOSILLO-MENSUAL.csv): failed to open stream: No such file or directory in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[25-Apr-2019 20:18:51 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 57
+[25-Apr-2019 20:18:56 UTC] PHP Warning:  fopen(../csv/mensual/HERMOSILLO-MENSUAL.csv): failed to open stream: No such file or directory in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 22
+[25-Apr-2019 20:18:56 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/csvToJson.php on line 57
+[27-Apr-2019 20:57:26 UTC] PHP Warning:  fopen(../csv/mensual/friocaliente/FrioCalienteEstado.csv): failed to open stream: No such file or directory in /home/carigodoy/public_html/climacharts.com.mx/php/hotColdDay.php on line 19
+[27-Apr-2019 20:57:26 UTC] PHP Notice:  Undefined variable: resultado in /home/carigodoy/public_html/climacharts.com.mx/php/hotColdDay.php on line 35

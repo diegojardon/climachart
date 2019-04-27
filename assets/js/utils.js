@@ -93,7 +93,25 @@ function generaTabla(data){
     var divContainer = document.getElementById("csvData");
     divContainer.innerHTML = "";
     divContainer.appendChild(table);
+}
 
+function generaDiaFrioCaliente(estado, tipoFrioCaliente){
+    var nombreArchivo = '../csv/friocaliente/FrioCalienteEstado.csv';
+    var url = "http://climacharts.com.mx/php/hotColdDay.php";
+    var data = {nombreArchivo: nombreArchivo, frioCaliente: tipoFrioCaliente, estado: estado};
+
+    fetch(url, {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers:{
+            'Content-Type': 'application/json'
+        }
+    }).then(res => res.json())
+    .catch(error => console.error('Error:', error))
+    .then(response => {
+        console.log('Exito:', response)
+        /*CREAR GRÁFICA CON LOS PUNTOS OBTENIDOS EN EL RESPONSE*/
+    });
 }
 
 function traduceTituloFilas(tituloFila){
