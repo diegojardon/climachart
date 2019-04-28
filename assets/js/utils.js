@@ -95,25 +95,6 @@ function generaTabla(data){
     divContainer.appendChild(table);
 }
 
-function generaDiaFrioCaliente(estado, tipoFrioCaliente){
-    var nombreArchivo = '../csv/friocaliente/FrioCalienteEstado.csv';
-    var url = "http://climacharts.com.mx/php/hotColdDay.php";
-    var data = {nombreArchivo: nombreArchivo, frioCaliente: tipoFrioCaliente, estado: estado};
-
-    fetch(url, {
-        method: 'POST',
-        body: JSON.stringify(data),
-        headers:{
-            'Content-Type': 'application/json'
-        }
-    }).then(res => res.json())
-    .catch(error => console.error('Error:', error))
-    .then(response => {
-        console.log('Exito:', response)
-        /*CREAR GRÁFICA CON LOS PUNTOS OBTENIDOS EN EL RESPONSE*/
-    });
-}
-
 function traduceTituloFilas(tituloFila){
     switch(tituloFila){
         case "Dry Bulb Temp (Avg Daily)":
@@ -202,6 +183,48 @@ function obtieneMes(numMes){
         break;
         case 11:
             return "Dic";
+        break;
+    }
+
+}
+
+function obtieneMesEspañol(numMes){
+    switch(numMes){
+        case 1:
+            return "ENERO";
+        break;
+        case 2:
+            return "FEBRERO";
+        break;
+        case 3:
+            return "MARZO";
+        break;
+        case 4:
+            return "ABRIL";
+        break;
+        case 5:
+            return "MAYO";
+        break;
+        case 6:
+            return "JUNIO";
+        break;
+        case 7:
+            return "JULIO";
+        break;
+        case 8:
+            return "AGOSTO";
+        break;
+        case 9:
+            return "SEPTIEMBRE";
+        break;
+        case 10:
+            return "OCTUBRE";
+        break;
+        case 11:
+            return "NOVIEMBRE";
+        break;
+        case 12:
+            return "DICIEMBRE";
         break;
     }
 

@@ -36,7 +36,7 @@ function hoursToDate(hour) {
 
 
 
-function psychrometricChart() {
+function psychrometricChart(estado, tipo) {
 	var width,
 	height,
 	context,
@@ -52,6 +52,8 @@ function psychrometricChart() {
 	hExtent = [0,23],
 	mExtent = [0, 11];
 	dExtent = [0, 30];
+
+	console.log("ESTADO EN PSYCHROMETRIC: " + estado);
 
 	//En estos valores de los extent se pone el rango con el que se quiere inicializar cada slider
 
@@ -321,21 +323,62 @@ function psychrometricChart() {
  					.text(d.elevation + " m");
           	});
 
-			//finally - plot the points
-			/************************************************** COLORES DE LOS PUNTOS *********************/
-			psychChart.selectAll(".hours")
-				.data(data.weather)
-				.enter()
+			//finally - plot hot or cold points points
+ 
+ 			var nombreArchivo = '../csv/friocaliente/FrioCalienteEstado.csv';
+			var url = "http://climacharts.com.mx/php/hotColdDay.php";
+			var data = {nombreArchivo: nombreArchivo, frioCaliente: tipo, estado: estado};
+
+			fetch(url, {
+				method: 'POST',
+				body: JSON.stringify(data),
+				headers:{
+					'Content-Type': 'application/json'
+				}
+			}).then(res => res.json())
+			.catch(error => console.error('Error:', error))
+			.then(response => {
+				console.log('Exito:', response)
+				$('#mesHotCold').text(obtieneMesEspañol(Number(response.info.month)));
+				$('#temperaturaTipo').text('Temperatura mes más ' + response.info.type);
+				for (var i = 0; i < response.info.points.length; i++) {
+					hr = psych.calcHumidRatioHotCold(Number(response.info.points[i].temperature), Number(response.info.points[i].humidity), avgPressure);
+					psychChart
+					.append("circle")
+					.attr("class", "hours")
+					.attr("cx", dbScale(response.info.points[i].temperature))
+					.attr("cy", hrScale(hr)) 
+					.attr("r", (width < 600) ? 5: 6)
+					.attr("fill", response.info.points[i].color)
+					.attr("fill-opacity", .8)
+					.attr("title", response.info.points[i].temperature + "," + response.info.points[i].humidity);
+
+					var textColor = "#cc0000";
+					if(response.info.type == "frio")
+						textColor = "#003fef";
+					psychChart
+					.append("text")
+					.text(response.info.points[i].temperature + "," + response.info.points[i].humidity)
+					.attr("id", "hourAxisText")
+					.attr("font-weight", "bold")
+					.attr("text-anchor", "middle")
+					.attr("fill", textColor)
+					.attr("x", dbScale(response.info.points[i].temperature))
+          			.attr("y", hrScale(hr) - 12);
+
+
+					//console.log("PUNTO EN: " + response.info.points[i].temperature + ", " + response.info.points[i].humidity);
+				}
+			});
+
+			/*psychChart
 				.append("circle")
 				.attr("class", "hours")
-				.attr("cx", function(d) { return dbScale(d.db); })
-				.attr("cy", function(d) { return hrScale(d.hr); })
-				.attr("r", (width < 600) ? 2: 3)
-				.attr("fill", "#1c9099")
-				.attr("fill-opacity", .2)
-				.classed("nir", function(d) { 
-					return (d.date.getHours() < hExtent[0] || d.date.getHours() > hExtent[1] || d.date.getMonth() < mExtent[0] || d.date.getMonth() > mExtent[1] || d.date.getDate() < dExtent[0] || d.date.getDate() > dExtent[1]); 
-					});
+				.attr("cx", 298.1466666666667)
+				.attr("cy", 287.82400751422193)
+				.attr("r", (width < 600) ? 7: 8)
+				.attr("fill", "#f44242")
+				.attr("fill-opacity", .8);*/
 
 
 			//set up the sliders
@@ -344,135 +387,7 @@ function psychrometricChart() {
 
 			var offsetText = 30;
 
-			//Slider de horas
-			constraints.append("g")
-				.attr("class", "hourAxis")
-				.attr("id", "hourAxis")
-				.call(d3.svg.axis()
-					.scale(hourScale)
-					.orient("bottom")
-					.tickFormat(function(d) { 
-						var suffix = "";
-						if(d == 0)
-						   suffix = "AM";
-						if(d == 12)
-							suffix = "PM";
-
-						/** 
-						* DAJR -- Descomentar esta linea y comentar las de arriba para mostrar la escala
-						con el slider original
-						**/
-						//var suffix = ((d + 1) >= 12 && d != 23)? " PM": " AM";
-						return ((d + 12) % 12 + 1) + suffix;
-					})
-					.tickSize(0)
-					.tickPadding(12)
-					.tickValues([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]))
-				.select(".domain")
-				.select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
-					.attr("class", "halo");
-
-			var hBrushg = constraints.append("g")
-				.attr("class", "brush")
-				.call(hBrush);
-
-			hBrushg.selectAll(".resize").append("circle")
-				.attr("class", "handle")
-				.attr("r",((width < 600) ? 4: 6));
-
-			hBrushg.selectAll("rect")
-				.attr("height",6)
-				.attr("y", -3);
-
-			constraints.select("#hourAxis")
-				.append("text")
-				.text("Horas")
-					.attr("id", "hourAxisText")
-					.attr("font-weight", "bold")
-					.attr("text-anchor", "middle")
-					.attr("x", ((width) / 2) - offsetText)
-          			.attr("y", 45);
-
-			//Slider de días			
-			constraints.append("g")
-				.attr("class", "dayAxis")
-				.attr("id", "dayAxis")
-				.attr("transform", "translate(0," + ((width < 600) ? 60: 75) + ")")
-				.call(d3.svg.axis()
-					.scale(dayScale)
-					.orient("bottom")
-					.tickFormat(function(d) { 
-						return d+1;
-					})
-					.tickSize(0)
-					.tickPadding(12)
-					.tickValues([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]))
-				.select(".domain")
-				.select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
-					.attr("class", "halo");
-
-			var dBrushg = constraints.append("g")
-				.attr("transform", "translate(0," + ((width < 600) ? 60: 75) + ")")
-				.attr("class", "brush")
-				.call(dBrush);
-
-			dBrushg.selectAll(".resize").append("circle")
-				.attr("class", "handle")
-				.attr("r", ((width < 600) ? 4: 6));
-
-			dBrushg.selectAll("rect")
-				.attr("height",6)
-				.attr("y", -3);
-
-			constraints.select("#dayAxis")
-				.append("text")
-				.text("Días")
-					.attr("id", "dayAxisText")
-					.attr("font-weight", "bold")
-					.attr("text-anchor", "middle")
-					.attr("x", ((width) / 2) - offsetText)
-          			.attr("y", 45);
-
-			//Slider de meses
-			constraints.append("g")
-				.attr("class", "monthAxis")
-				.attr("id", "monthAxis")
-				.attr("transform", "translate(0," + ((width < 600) ? 135: 150) + ")")
-				.call(d3.svg.axis()
-					.scale(monthScale)
-					.orient("bottom")
-					.tickFormat(function(d) { 
-						return monthAbb[d];
-					})
-					.tickSize(0)
-					.tickPadding(12))
-				.select(".domain")
-				.select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
-					.attr("class", "halo");
-
-			var mBrushg = constraints.append("g")
-				.attr("transform", "translate(0," + ((width < 600) ? 135: 150) + ")")
-				.attr("class", "brush")
-				.call(mBrush);
-
-			mBrushg.selectAll(".resize").append("circle")
-				.attr("class", "handle")
-				.attr("r", ((width < 600) ? 4: 6));
-
-			mBrushg.selectAll("rect")
-				.attr("height",6)
-				.attr("y", -3);
-
-			constraints.select("#monthAxis")
-				.append("text")
-				.text("Meses")
-					.attr("id", "monthAxisText")
-					.attr("font-weight", "bold")
-					.attr("text-anchor", "middle")
-					.attr("x", ((width) / 2) - offsetText)
-          			.attr("y", 45);
-
-		
+					
 			//set up the drop zone for the epw file
 			dropZone = context;
 
@@ -677,6 +592,16 @@ function psychrometrics() {
 		var enthalpy = 1.006 * temp + humidityRatio * (2501 + 1.86 * temp);
 
 		return {hr: humidityRatio, e: enthalpy, pp: partialPressure, sp: saturationPressure};
+	}
+
+	this.calcHumidRatioHotCold = function(temp, rh, bar) {
+
+		var saturationPressure = this.calcVaporPressure(temp + 273.15);
+		var humidityRatio = 0.62198 * (rh/100) * (saturationPressure/1000) / (bar / 1000 - (rh/100) * saturationPressure / 1000);
+		var partialPressure = rh/100 * saturationPressure;
+		var enthalpy = 1.006 * temp + humidityRatio * (2501 + 1.86 * temp);
+
+		return humidityRatio;
 	}
 
 	this.calcRhFromHumidRatio = function(absHumidity, bar, temp) {

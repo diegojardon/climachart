@@ -114,23 +114,20 @@
     <!-- Service Block-1 Section -->
     <section id="service-block-main" class="section">
       <!-- Container Starts -->
-      <div class="container" style="margin-left: 5px;">
+      <div class="container" style="margin-left: 5px; width:100%;">
         <div class="row">
-            <h1 class="section-title wow fadeIn animated" data-wow-delay=".2s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gráfica Psicrométrica</h1>
-            <!-- AQUI VA EL CÓDIGO DE LA GRÁFICA -->
-            <div class="row" style="padding-top: 0px; padding-bottom: 0px;">
-              <div class="col-md-2 col-sm-2"></div>
-              <div class="col-md-4 col-sm-4">
-                <button id="graficarColdBtn" type="button" class="btn btn-success" style="font-weight: bold; background-color: #053570; border-color: #053570; width: 100%;">DIA DE DISEÑO FRIO</button> 
-              </div>
-              <div class="col-md-4 col-sm-4">
-                <button id="graficarHotBtn" type="button" class="btn btn-success" style="font-weight: bold; background-color: #ed3a34; border-color: #ed3a34; width:100%;">DIA DE DISEÑO CALIENTE</button>  
-              </div>
-              <div class="col-md-2 col-sm-2"></div>
+            <div class="col-md-4 col-sm-4">
+              <center>
+              <h4 style="font-size: 24px; padding-bottom: 5px; margin-bottom: 0rem;" data-wow-delay=".2s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DIA DE DISEÑO</h4>
+            </center>
+              <center>
+                <h5 id="temperaturaTipo" style="font-size: 16px; padding-left: 42px; padding-top: 5px;" data-wow-delay=".2s">&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+              </center>
             </div>
-            <h2></h2>
-          <p class="section-subcontent"></p>
-          <p class="section-subcontent"></p>
+            
+            <h1 id="mesHotCold" class="section-title wow fadeIn animated" data-wow-delay=".2s"></h1>
+            
+            <!-- AQUI VA EL CÓDIGO DE LA GRÁFICA -->
         </div>
       </div><!-- Container Ends -->
     </section><!-- Service Main Section Ends -->
@@ -214,10 +211,10 @@
 
     <script src="assets/js/chart/epw2json.js"></script>
 
-    <script type="text/javascript" src="assets/js/psychrometricChart.js"></script>
+    <script type="text/javascript" src="assets/js/psychrometricChartColdHot.js"></script>
     <script src="assets/js/queue.v1.min.js"></script>
     <script src="assets/js/topojson.js"></script>
-    <script type="text/javascript" src="assets/js/psychrometric.js"></script>
+    <script type="text/javascript" src="assets/js/psychrometricColdHot.js"></script>
 
     <script type="text/javascript">
       $(document).ready(function(){
@@ -239,12 +236,8 @@
           //console.log("JSON EPW: " + JSON.stringify(epw_data));
         //});
 
-        $("#graficarColdBtn").click(function(){
-            document.location.href = "diaFrioCaliente.html?edo=" + estado + "-frio";
-        });
-
-        $("#graficarHotBtn").click(function(){
-            document.location.href = "diaFrioCaliente.html?edo=" + estado + "-caliente";
+        $("#graficarBtn").click(function(){
+            document.location.href = "psicrometrica.html";
         });
 
       });

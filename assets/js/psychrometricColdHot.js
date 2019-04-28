@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	var container = $('h2').after($('<div/>').addClass('container main'));
+	var container = $('h1').after($('<div/>').addClass('container main'));
 	
 	$('div.main').append($('<div/>').addClass('row').attr('id', 'chart'));
   	
@@ -11,11 +11,13 @@ $(document).ready(function() {
 	for (var i = 0; i < sURLVariables.length; i++){
 		var sParameterName = sURLVariables[i].split('=');
 		if (sParameterName[0] == "edo"){
-			estado = sParameterName[1];
+			params = sParameterName[1].split('-');
+			estado = params[0];
+			tipo = params[1];
 		}
 	}
 
-	var chart = new psychrometricChart();
+	var chart = new psychrometricChart(estado, tipo);
 	//var data = d3.csv.parse(d3.select("#epw").text());
 	//console.log(data);
 
