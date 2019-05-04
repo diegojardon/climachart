@@ -52,6 +52,12 @@ if (($gestor = fopen($nombreArchivo, "r")) !== FALSE) {
                         case 8:
                             $resultado["info"]["points"][$fila]["color"] = $datos[$c];
                         break;
+                        case 9:
+                            $resultado["info"]["tempNormalized"] = $datos[$c];
+                        break;
+                        case 10:
+                            $resultado["info"]["humNormalized"] = $datos[$c];
+                        break;
                     }
                     if($c==8)
                         $fila++;

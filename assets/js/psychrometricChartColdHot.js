@@ -41,7 +41,7 @@ function psychrometricChart(estado, tipo) {
 	height,
 	context,
 	ar = 7/8,
-	dbMin = 0,
+	dbMin = -15,
 	dbMax = 60,
 	hrMin = 0,
 	hrMax = 0.030,
@@ -126,7 +126,7 @@ function psychrometricChart(estado, tipo) {
 			d3.select(context).selectAll(".psychChart").remove()
 			var psychChart = d3.select(context)
 				.append("div").attr("class", "psychChart")
-				.append("svg").attr({"width": width, "height": height})
+				.append("svg").attr({"width": width, "height": height - 270})
 				.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 
@@ -236,7 +236,7 @@ function psychrometricChart(estado, tipo) {
 
           	psychChart.select("#hrAxis")
 				.append("text")
-				.text("Humedad [g/kg]")
+				.text("Punto de Rocío [g/kg]")
 					.attr("id", "hrUnit")
 					.attr("text-anchor", "middle")
 					.attr("transform", "rotate(-90)")
@@ -339,8 +339,11 @@ function psychrometricChart(estado, tipo) {
 			.catch(error => console.error('Error:', error))
 			.then(response => {
 				console.log('Exito:', response)
-				$('#mesHotCold').text(obtieneMesEspañol(Number(response.info.month)));
+				$('#mesHotCold').text("Mes más " + response.info.type + ": " + obtieneMesEspañol(Number(response.info.month)));
 				$('#temperaturaTipo').text('Temperatura mes más ' + response.info.type);
+				$('#designDay').text('Dia de diseño ' + response.info.points[0].day + " de " + MaysPrimera(obtieneMesEspañol(Number(response.info.month)).toLowerCase()));
+				$('#normalizedTemp').text('Temperatura media normalizada ' + response.info.tempNormalized + " °C");
+				$('#normalizedHumid').text('Humedad media normalizada ' + response.info.humNormalized + " %");
 				for (var i = 0; i < response.info.points.length; i++) {
 					hr = psych.calcHumidRatioHotCold(Number(response.info.points[i].temperature), Number(response.info.points[i].humidity), avgPressure);
 					psychChart
@@ -358,7 +361,7 @@ function psychrometricChart(estado, tipo) {
 						textColor = "#003fef";
 					psychChart
 					.append("text")
-					.text(response.info.points[i].temperature + "," + response.info.points[i].humidity)
+					.text(response.info.points[i].hour + ":00")
 					.attr("id", "hourAxisText")
 					.attr("font-weight", "bold")
 					.attr("text-anchor", "middle")

@@ -41,7 +41,7 @@ function psychrometricChart() {
 	height,
 	context,
 	ar = 7/8,
-	dbMin = 0,
+	dbMin = -15,
 	dbMax = 60,
 	hrMin = 0,
 	hrMax = 0.030,
@@ -234,7 +234,7 @@ function psychrometricChart() {
 
           	psychChart.select("#hrAxis")
 				.append("text")
-				.text("Humedad [g/kg]")
+				.text("Punto de Rocío [g/kg]")
 					.attr("id", "hrUnit")
 					.attr("text-anchor", "middle")
 					.attr("transform", "rotate(-90)")

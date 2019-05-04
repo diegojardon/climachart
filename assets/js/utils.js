@@ -230,6 +230,10 @@ function obtieneMesEspañol(numMes){
 
 }
 
+function MaysPrimera(string){
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 function transformaEstado(estado){
     switch(estado){
         case "BajaNor":

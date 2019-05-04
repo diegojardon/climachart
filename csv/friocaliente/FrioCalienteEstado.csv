@@ -1,419 +1,419 @@
-﻿CAPITAL,MES,DIA,HORA,TEMPERATURA DE BULBO SECO,HUMEDAD,LEYENDA INFERIOR,TIPO,COLOR
-Aguas,1,13,3,5.7,57,N/A,frio,#47b4f7
-Aguas,1,13,6,1,64,N/A,frio,#003fef
-Aguas,1,13,9,13.9,44,N/A,frio,#47b4f7
-Aguas,1,13,12,21.7,16,N/A,frio,#47b4f7
-Aguas,1,13,15,23,11,N/A,frio,#003fef
-Aguas,1,13,19,15.5,20,N/A,frio,#47b4f7
-Aguas,6,22,2,13.9,67,N/A,caliente,#f27b7b
-Aguas,6,22,4,12.4,72,N/A,caliente,#cc0000
-Aguas,6,22,7,18.4,66,N/A,caliente,#f27b7b
-Aguas,6,22,10,24.6,38,N/A,caliente,#f27b7b
-Aguas,6,22,14,29.8,25,N/A,caliente,#cc0000
-Aguas,6,22,19,26.2,25,N/A,caliente,#f27b7b
-Camp,1,11,3,21.8,90,N/A,frio,#47b4f7
-Camp,1,11,6,21.1,98,N/A,frio,#003fef
-Camp,1,11,9,24.1,88,N/A,frio,#47b4f7
-Camp,1,11,12,27,74,N/A,frio,#003fef
-Camp,1,11,15,24.7,90,N/A,frio,#47b4f7
-Camp,1,11,20,22,100,N/A,frio,#47b4f7
-Camp,5,1,1,27.5,74,N/A,caliente,#f27b7b
-Camp,5,1,5,25.4,86,N/A,caliente,#cc0000
-Camp,5,1,8,31.6,74,N/A,caliente,#f27b7b
-Camp,5,1,11,35,56,N/A,caliente,#cc0000
-Camp,5,1,16,30,79,N/A,caliente,#f27b7b
-Camp,5,1,21,29,79,N/A,caliente,#f27b7b
-Qroo,1,20,3,22.4,100,N/A,frio,#47b4f7
-Qroo,1,20,6,19.3,98,N/A,frio,#003fef
-Qroo,1,20,10,24,78,N/A,frio,#47b4f7
-Qroo,1,20,14,29.4,64,N/A,frio,#003fef
-Qroo,1,20,17,25.8,74,N/A,frio,#47b4f7
-Qroo,1,20,21,24.6,86,N/A,frio,#47b4f7
-Qroo,6,24,1,26.2,88,N/A,caliente,#f27b7b
-Qroo,6,24,5,24.8,98,N/A,caliente,#cc0000
-Qroo,6,24,8,29.6,79,N/A,caliente,#f27b7b
-Qroo,6,24,12,32,70,N/A,caliente,#cc0000
-Qroo,6,24,17,29.6,69,N/A,caliente,#f27b7b
-Qroo,6,24,21,28,84,N/A,caliente,#f27b7b
-Chih,1,17,3,0.8,60,N/A,frio,#47b4f7
-Chih,1,17,7,0,68,N/A,frio,#003fef
-Chih,1,17,10,12,44,N/A,frio,#47b4f7
-Chih,1,17,14,19.7,34,N/A,frio,#003fef
-Chih,1,17,19,15.7,43,N/A,frio,#47b4f7
-Chih,1,17,24,7.2,51,N/A,frio,#47b4f7
-Chih,6,14,2,25.2,41,N/A,caliente,#f27b7b
-Chih,6,14,6,21.9,58,N/A,caliente,#cc0000
-Chih,6,14,9,29.6,39,N/A,caliente,#f27b7b
-Chih,6,14,11,33,29,N/A,caliente,#cc0000
-Chih,6,14,16,24.6,48,N/A,caliente,#f27b7b
-Chih,6,14,21,25.4,44,N/A,caliente,#f27b7b
-Guer,1,24,2,16.8,92,N/A,frio,#47b4f7
-Guer,1,24,6,14.7,100,N/A,frio,#003fef
-Guer,1,24,9,19,64,N/A,frio,#47b4f7
-Guer,1,24,13,26.6,41,N/A,frio,#003fef
-Guer,1,24,18,22,56,N/A,frio,#47b4f7
-Guer,1,24,22,18.2,76,N/A,frio,#47b4f7
-Guer,5,16,1,21.1,72,N/A,caliente,#f27b7b
-Guer,5,16,5,18.7,70,N/A,caliente,#cc0000
-Guer,5,16,9,26.2,53,N/A,caliente,#f27b7b
-Guer,5,16,14,32.1,35,N/A,caliente,#cc0000
-Guer,5,16,18,26.8,61,N/A,caliente,#f27b7b
-Guer,5,16,22,22,77,N/A,caliente,#f27b7b
-Cdmx,1,12,1,10.9,71,N/A,frio,#47b4f7
-Cdmx,1,12,5,7.8,80,N/A,frio,#003fef
-Cdmx,1,12,9,12.6,55,N/A,frio,#47b4f7
-Cdmx,1,12,14,21.6,39,N/A,frio,#003fef
-Cdmx,1,12,17,19.2,53,N/A,frio,#47b4f7
-Cdmx,1,12,21,14.4,74,N/A,frio,#47b4f7
-Cdmx,5,12,5,11.2,100,N/A,caliente,#cc0000
-Cdmx,5,12,8,15.7,99,N/A,caliente,#f27b7b
-Cdmx,5,12,11,20.1,77,N/A,caliente,#f27b7b
-Cdmx,5,12,14,21.3,77,N/A,caliente,#cc0000
-Cdmx,5,12,19,14.9,100,N/A,caliente,#f27b7b
-Cdmx,5,12,24,13.7,98,N/A,caliente,#f27b7b
+CAPITAL,MES,DIA,HORA,TEMPERATURA DE BULBO SECO,HUMEDAD,LEYENDA INFERIOR,TIPO,COLOR,TEMP_NORMALIZADA,HUM_NORMALIZADA
+Aguas,1,13,3,5.7,57,N/A,frio,#f4c242,13.1,33.7
+Aguas,1,13,6,1,64,N/A,frio,#003fef,13.1,33.7
+Aguas,1,13,9,13.9,44,N/A,frio,#f4c242,13.1,33.7
+Aguas,1,13,12,21.7,16,N/A,frio,#f4c242,13.1,33.7
+Aguas,1,13,15,23,11,N/A,frio,#cc0000,13.1,33.7
+Aguas,1,13,19,15.5,20,N/A,frio,#f4c242,13.1,33.7
+Aguas,6,22,2,13.9,67,N/A,caliente,#f4c242,22.2,45.8
+Aguas,6,22,4,12.4,72,N/A,caliente,#003fef,22.2,45.8
+Aguas,6,22,7,18.4,66,N/A,caliente,#f4c242,22.2,45.8
+Aguas,6,22,10,24.6,38,N/A,caliente,#f4c242,22.2,45.8
+Aguas,6,22,14,29.8,25,N/A,caliente,#cc0000,22.2,45.8
+Aguas,6,22,19,26.2,25,N/A,caliente,#f4c242,22.2,45.8
+Camp,1,11,3,21.8,90,N/A,frio,#f4c242,24.1,84.6
+Camp,1,11,6,21.1,98,N/A,frio,#003fef,24.1,84.6
+Camp,1,11,9,24.1,88,N/A,frio,#f4c242,24.1,84.6
+Camp,1,11,12,27,74,N/A,frio,#cc0000,24.1,84.6
+Camp,1,11,15,24.7,90,N/A,frio,#f4c242,24.1,84.6
+Camp,1,11,20,22,100,N/A,frio,#f4c242,24.1,84.6
+Camp,5,1,1,27.5,74,N/A,caliente,#f4c242,19.1,63.4
+Camp,5,1,5,25.4,86,N/A,caliente,#003fef,19.1,63.4
+Camp,5,1,8,31.6,74,N/A,caliente,#f4c242,19.1,63.4
+Camp,5,1,11,35,56,N/A,caliente,#cc0000,19.1,63.4
+Camp,5,1,16,30,79,N/A,caliente,#f4c242,19.1,63.4
+Camp,5,1,21,29,79,N/A,caliente,#f4c242,19.1,63.4
+Qroo,1,20,3,22.4,100,N/A,frio,#f4c242,14.9,58
+Qroo,1,20,6,19.3,98,N/A,frio,#003fef,14.9,58
+Qroo,1,20,10,24,78,N/A,frio,#f4c242,14.9,58
+Qroo,1,20,14,29.4,64,N/A,frio,#cc0000,14.9,58
+Qroo,1,20,17,25.8,74,N/A,frio,#f4c242,14.9,58
+Qroo,1,20,21,24.6,86,N/A,frio,#f4c242,14.9,58
+Qroo,6,24,1,26.2,88,N/A,caliente,#f4c242,22.6,55.9
+Qroo,6,24,5,24.8,98,N/A,caliente,#003fef,22.6,55.9
+Qroo,6,24,8,29.6,79,N/A,caliente,#f4c242,22.6,55.9
+Qroo,6,24,12,32,70,N/A,caliente,#cc0000,22.6,55.9
+Qroo,6,24,17,29.6,69,N/A,caliente,#f4c242,22.6,55.9
+Qroo,6,24,21,28,84,N/A,caliente,#f4c242,22.6,55.9
+Chih,1,17,3,0.8,60,N/A,frio,#f4c242,10,48.8
+Chih,1,17,7,0,68,N/A,frio,#003fef,10,48.8
+Chih,1,17,10,12,44,N/A,frio,#f4c242,10,48.8
+Chih,1,17,14,19.7,34,N/A,frio,#cc0000,10,48.8
+Chih,1,17,19,15.7,43,N/A,frio,#f4c242,10,48.8
+Chih,1,17,24,7.2,51,N/A,frio,#f4c242,10,48.8
+Chih,6,14,2,25.2,41,N/A,caliente,#f4c242,26.7,41.2
+Chih,6,14,6,21.9,58,N/A,caliente,#003fef,26.7,41.2
+Chih,6,14,9,29.6,39,N/A,caliente,#f4c242,26.7,41.2
+Chih,6,14,11,33,29,N/A,caliente,#cc0000,26.7,41.2
+Chih,6,14,16,24.6,48,N/A,caliente,#f4c242,26.7,41.2
+Chih,6,14,21,25.4,44,N/A,caliente,#f4c242,26.7,41.2
+Guer,1,24,2,16.8,92,N/A,frio,#f4c242,20,69
+Guer,1,24,6,14.7,100,N/A,frio,#003fef,20,69
+Guer,1,24,9,19,64,N/A,frio,#f4c242,20,69
+Guer,1,24,13,26.6,41,N/A,frio,#cc0000,20,69
+Guer,1,24,18,22,56,N/A,frio,#f4c242,20,69
+Guer,1,24,22,18.2,76,N/A,frio,#f4c242,20,69
+Guer,5,16,1,21.1,72,N/A,caliente,#f4c242,24.8,60.3
+Guer,5,16,5,18.7,70,N/A,caliente,#003fef,24.8,60.3
+Guer,5,16,9,26.2,53,N/A,caliente,#f4c242,24.8,60.3
+Guer,5,16,14,32.1,35,N/A,caliente,#cc0000,24.8,60.3
+Guer,5,16,18,26.8,61,N/A,caliente,#f4c242,24.8,60.3
+Guer,5,16,22,22,77,N/A,caliente,#f4c242,24.8,60.3
+Cdmx,1,12,1,10.9,71,N/A,frio,#f4c242,14.4,61.8
+Cdmx,1,12,5,7.8,80,N/A,frio,#003fef,14.4,61.8
+Cdmx,1,12,9,12.6,55,N/A,frio,#f4c242,14.4,61.8
+Cdmx,1,12,14,21.6,39,N/A,frio,#cc0000,14.4,61.8
+Cdmx,1,12,17,19.2,53,N/A,frio,#f4c242,14.4,61.8
+Cdmx,1,12,21,14.4,74,N/A,frio,#f4c242,14.4,61.8
+Cdmx,5,12,5,11.2,100,N/A,caliente,#003fef,20.5,49.8
+Cdmx,5,12,8,15.7,99,N/A,caliente,#f4c242,20.5,49.8
+Cdmx,5,12,11,20.1,77,N/A,caliente,#f4c242,20.5,49.8
+Cdmx,5,12,14,21.3,77,N/A,caliente,#cc0000,20.5,49.8
+Cdmx,5,12,19,14.9,100,N/A,caliente,#f4c242,20.5,49.8
+Cdmx,5,12,24,13.7,98,N/A,caliente,#f4c242,20.5,49.8
 Tama,12,12,2,13.6,93,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,16.6,78.09
 Tama,12,12,6,12.3,100,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#003fef
+** Valores normalizados no disponibles",frio,#003fef,16.6,78.09
 Tama,12,12,10,16.7,96,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,16.6,78.09
 Tama,12,12,14,22.6,78,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#003fef
+** Valores normalizados no disponibles",frio,#cc0000,16.6,78.09
 Tama,12,12,18,17.7,94,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,16.6,78.09
 Tama,12,12,22,13.6,99,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,16.6,78.09
 Tama,6,14,1,26.3,91,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,29.5,69.71
 Tama,6,14,5,26,89,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#cc0000
+** Valores normalizados no disponibles",caliente,#003fef,29.5,69.71
 Tama,6,14,9,29.5,66,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,29.5,69.71
 Tama,6,14,14,34.2,46,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#cc0000
+** Valores normalizados no disponibles",caliente,#cc0000,29.5,69.71
 Tama,6,14,18,31.9,51,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,29.5,69.71
 Tama,6,14,22,29.1,68,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
-Coli,1,24,1,21,61,N/A,frio,#47b4f7
-Coli,1,24,6,19,MINMA,N/A,frio,#003fef
-Coli,1,24,10,25.5,42,N/A,frio,#47b4f7
-Coli,1,24,14,31.1,MAXIMA,N/A,frio,#003fef
-Coli,1,24,18,24.9,57,N/A,frio,#47b4f7
-Coli,1,24,22,22.1,61,N/A,frio,#47b4f7
-Coli,6,19,4,22,78,N/A,caliente,#cc0000
-Coli,6,19,7,26.2,60,N/A,caliente,#f27b7b
-Coli,6,19,10,30.6,49,N/A,caliente,#f27b7b
-Coli,6,19,14,34,46,N/A,caliente,#cc0000
-Coli,6,19,19,27.8,58,N/A,caliente,#f27b7b
-Coli,6,19,24,23.3,62,N/A,caliente,#f27b7b
-More,12,14,2,16.1,65,N/A,frio,#47b4f7
-More,12,14,5,13.5,77,N/A,frio,#003fef
-More,12,14,9,21.3,46,N/A,frio,#47b4f7
-More,12,14,14,25.7,36,N/A,frio,#003fef
-More,12,14,19,18.2,78,N/A,frio,#47b4f7
-More,12,14,23,15.2,88,N/A,frio,#47b4f7
-More,5,14,2,16,85,N/A,caliente,#cc0000
-More,5,14,6,20,64,N/A,caliente,#f27b7b
-More,5,14,11,21.9,55,N/A,caliente,#f27b7b
-More,5,14,15,34,28,N/A,caliente,#cc0000
-More,5,14,19,26,38,N/A,caliente,#f27b7b
-More,5,14,23,19.2,62,N/A,caliente,#f27b7b
-Sina,1,23,1,15.7,94,N/A,frio,#47b4f7
-Sina,1,23,5,13.2,94,N/A,frio,#003fef
-Sina,1,23,9,18.8,63,N/A,frio,#47b4f7
-Sina,1,23,13,26.8,43,N/A,frio,#003fef
-Sina,1,23,17,24.2,51,N/A,frio,#47b4f7
-Sina,1,23,21,18,83,N/A,frio,#47b4f7
-Sina,8,4,1,24.8,95,N/A,caliente,#f27b7b
-Sina,8,4,4,24.5,95,N/A,caliente,#cc0000
-Sina,8,4,9,31.3,65,N/A,caliente,#f27b7b
-Sina,8,4,14,34,53,N/A,caliente,#cc0000
-Sina,8,4,18,32.7,60,N/A,caliente,#f27b7b
-Sina,8,4,22,28,89,N/A,caliente,#f27b7b
-Dura ,1,12,2,8.4,89,N/A,frio,#47b4f7
-Dura ,1,12,6,7.2,98,N/A,frio,#003fef
-Dura ,1,12,10,10.2,79,N/A,frio,#47b4f7
-Dura ,1,12,15,19.4,40,N/A,frio,#003fef
-Dura ,1,12,19,13.8,41,N/A,frio,#47b4f7
-Dura ,1,12,23,9.5,58,N/A,frio,#47b4f7
-Dura ,6,7,1,16.1,86,N/A,caliente,#f27b7b
-Dura ,6,7,5,14.6,93,N/A,caliente,#cc0000
-Dura ,6,7,8,18,80,N/A,caliente,#f27b7b
-Dura ,6,7,12,24.2,49,N/A,caliente,#f27b7b
-Dura ,6,7,16,31.8,32,N/A,caliente,#cc0000
-Dura ,6,7,20,18.6,72,N/A,caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,29.5,69.71
+Coli,1,24,1,21,61,N/A,frio,#f4c242,23.4,54.2
+Coli,1,24,6,19,MINMA,N/A,frio,#003fef,23.4,54.2
+Coli,1,24,10,25.5,42,N/A,frio,#f4c242,23.4,54.2
+Coli,1,24,14,31.1,MAXIMA,N/A,frio,#cc0000,23.4,54.2
+Coli,1,24,18,24.9,57,N/A,frio,#f4c242,23.4,54.2
+Coli,1,24,22,22.1,61,N/A,frio,#f4c242,23.4,54.2
+Coli,6,19,4,22,78,N/A,caliente,#003fef,27.7,56.8
+Coli,6,19,7,26.2,60,N/A,caliente,#f4c242,27.7,56.8
+Coli,6,19,10,30.6,49,N/A,caliente,#f4c242,27.7,56.8
+Coli,6,19,14,34,46,N/A,caliente,#cc0000,27.7,56.8
+Coli,6,19,19,27.8,58,N/A,caliente,#f4c242,27.7,56.8
+Coli,6,19,24,23.3,62,N/A,caliente,#f4c242,27.7,56.8
+More,12,14,2,16.1,65,N/A,frio,#f4c242,15.7,56.7
+More,12,14,5,13.5,77,N/A,frio,#003fef,15.7,56.7
+More,12,14,9,21.3,46,N/A,frio,#f4c242,15.7,56.7
+More,12,14,14,25.7,36,N/A,frio,#cc0000,15.7,56.7
+More,12,14,19,18.2,78,N/A,frio,#f4c242,15.7,56.7
+More,12,14,23,15.2,88,N/A,frio,#f4c242,15.7,56.7
+More,5,14,2,16,85,N/A,caliente,#003fef,22.1,50
+More,5,14,6,20,64,N/A,caliente,#f4c242,22.1,50
+More,5,14,11,21.9,55,N/A,caliente,#f4c242,22.1,50
+More,5,14,15,34,28,N/A,caliente,#cc0000,22.1,50
+More,5,14,19,26,38,N/A,caliente,#f4c242,22.1,50
+More,5,14,23,19.2,62,N/A,caliente,#f4c242,22.1,50
+Sina,1,23,1,15.7,94,N/A,frio,#f4c242,19.2,72.4
+Sina,1,23,5,13.2,94,N/A,frio,#003fef,19.2,72.4
+Sina,1,23,9,18.8,63,N/A,frio,#f4c242,19.2,72.4
+Sina,1,23,13,26.8,43,N/A,frio,#cc0000,19.2,72.4
+Sina,1,23,17,24.2,51,N/A,frio,#f4c242,19.2,72.4
+Sina,1,23,21,18,83,N/A,frio,#f4c242,19.2,72.4
+Sina,8,4,1,24.8,95,N/A,caliente,#f4c242,29.7,74.9
+Sina,8,4,4,24.5,95,N/A,caliente,#003fef,29.7,74.9
+Sina,8,4,9,31.3,65,N/A,caliente,#f4c242,29.7,74.9
+Sina,8,4,14,34,53,N/A,caliente,#cc0000,29.7,74.9
+Sina,8,4,18,32.7,60,N/A,caliente,#f4c242,29.7,74.9
+Sina,8,4,22,28,89,N/A,caliente,#f4c242,29.7,74.9
+Dura ,1,12,2,8.4,89,N/A,frio,#f4c242,11.7,66.5
+Dura ,1,12,6,7.2,98,N/A,frio,#003fef,11.7,66.5
+Dura ,1,12,10,10.2,79,N/A,frio,#f4c242,11.7,66.5
+Dura ,1,12,15,19.4,40,N/A,frio,#cc0000,11.7,66.5
+Dura ,1,12,19,13.8,41,N/A,frio,#f4c242,11.7,66.5
+Dura ,1,12,23,9.5,58,N/A,frio,#f4c242,11.7,66.5
+Dura ,6,7,1,16.1,86,N/A,caliente,#f4c242,21.3,63.4
+Dura ,6,7,5,14.6,93,N/A,caliente,#003fef,21.3,63.4
+Dura ,6,7,8,18,80,N/A,caliente,#f4c242,21.3,63.4
+Dura ,6,7,12,24.2,49,N/A,caliente,#f4c242,21.3,63.4
+Dura ,6,7,16,31.8,32,N/A,caliente,#cc0000,21.3,63.4
+Dura ,6,7,20,18.6,72,N/A,caliente,#f4c242,21.3,63.4
 Jali,1,23,2,6.6,80,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#003fef
+** Valores normalizados no disponibles",frio,#003fef,15.5,59.09
 Jali,1,23,6,10.5,66,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,15.5,59.09
 Jali,1,23,10,17.8,45,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,15.5,59.09
 Jali,1,23,15,25.3,23,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#003fef
+** Valores normalizados no disponibles",frio,#cc0000,15.5,59.09
 Jali,1,23,19,17.1,39,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,15.5,59.09
 Jali,1,23,23,11.8,70,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,15.5,59.09
 Jali,5,16,2,19.3,59,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,23.94,42.6
 Jali,5,16,5,16,79,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#cc0000
+** Valores normalizados no disponibles",caliente,#003fef,23.94,42.6
 Jali,5,16,9,23.9,46,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,23.94,42.6
 Jali,5,16,14,30,28,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#cc0000
+** Valores normalizados no disponibles",caliente,#cc0000,23.94,42.6
 Jali,5,16,19,25.4,47,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,23.94,42.6
 Jali,5,16,23,21.9,59,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
-Guana,1,23,3,14,59,N/A,frio,#47b4f7
-Guana,1,23,7,14,63,N/A,frio,#47b4f7
-Guana,1,23,11,17.8,49,N/A,frio,#003fef
-Guana,1,23,16,13.8,70,N/A,frio,#47b4f7
-Guana,1,23,20,11,100,N/A,frio,#47b4f7
-Guana,1,23,24,11,100,N/A,frio,#003fef
-Guana,5,27,5,17,84,N/A,caliente,#f27b7b
-Guana,5,27,10,26.5,41,N/A,caliente,#f27b7b
-Guana,5,27,14,32,24,N/A,caliente,#cc0000
-Guana,5,27,17,25.4,39,N/A,caliente,#f27b7b
-Guana,5,27,20,16,91,N/A,caliente,#cc0000
-Guana,5,27,24,18,90,N/A,caliente,#f27b7b
-Sono,12,25,1,9.6,66,N/A,frio,#47b4f7
-Sono,12,25,5,9,66,N/A,frio,#003fef
-Sono,12,25,8,13.3,55,N/A,frio,#47b4f7
-Sono,12,25,12,23.6,30,N/A,frio,#47b4f7
-Sono,12,25,15,24.8,28,N/A,frio,#003fef
-Sono,12,25,20,16.5,44,N/A,frio,#47b4f7
-Sono,7,6,3,28,84,N/A,caliente,#cc0000
-Sono,7,6,7,28.4,76,N/A,caliente,#f27b7b
-Sono,7,6,11,36,39,N/A,caliente,#f27b7b
-Sono,7,6,16,39,35,N/A,caliente,#cc0000
-Sono,7,6,20,33.6,43,N/A,caliente,#f27b7b
-Sono,7,6,24,28.3,61,N/A,caliente,#f27b7b
-BajaSur,1,19,2,8.8,64,N/A,frio,#47b4f7
-BajaSur,1,19,4,8,66,N/A,frio,#003fef
-BajaSur,1,19,7,9.6,65,N/A,frio,#47b4f7
-BajaSur,1,19,10,16.5,47,N/A,frio,#47b4f7
-BajaSur,1,19,12,19.5,41,N/A,frio,#003fef
-BajaSur,1,19,17,16.8,57,N/A,frio,#47b4f7
-BajaSur,8,19,1,26.5,60,N/A,caliente,#cc0000
-BajaSur,8,19,5,28.6,79,N/A,caliente,#f27b7b
-BajaSur,8,19,9,36.2,57,N/A,caliente,#f27b7b
-BajaSur,8,19,13,41,38,N/A,caliente,#cc0000
-BajaSur,8,19,17,39.4,41,N/A,caliente,#f27b7b
-BajaSur,8,19,21,34,50,N/A,caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,23.94,42.6
+Guana,1,23,3,14,59,N/A,frio,#f4c242,14,69.1
+Guana,1,23,7,14,63,N/A,frio,#f4c242,14,69.1
+Guana,1,23,11,17.8,49,N/A,frio,#003fef,14,69.1
+Guana,1,23,16,13.8,70,N/A,frio,#f4c242,14,69.1
+Guana,1,23,20,11,100,N/A,frio,#f4c242,14,69.1
+Guana,1,23,24,11,100,N/A,frio,#cc0000,14,69.1
+Guana,5,27,5,17,84,N/A,caliente,#f4c242,22.4,59.6
+Guana,5,27,10,26.5,41,N/A,caliente,#f4c242,22.4,59.6
+Guana,5,27,14,32,24,N/A,caliente,#003fef,22.4,59.6
+Guana,5,27,17,25.4,39,N/A,caliente,#f4c242,22.4,59.6
+Guana,5,27,20,16,91,N/A,caliente,#cc0000,22.4,59.6
+Guana,5,27,24,18,90,N/A,caliente,#f4c242,22.4,59.6
+Sono,12,25,1,9.6,66,N/A,frio,#f4c242,16.2,48.7
+Sono,12,25,5,9,66,N/A,frio,#003fef,16.2,48.7
+Sono,12,25,8,13.3,55,N/A,frio,#f4c242,16.2,48.7
+Sono,12,25,12,23.6,30,N/A,frio,#f4c242,16.2,48.7
+Sono,12,25,15,24.8,28,N/A,frio,#cc0000,16.2,48.7
+Sono,12,25,20,16.5,44,N/A,frio,#f4c242,16.2,48.7
+Sono,7,6,3,28,84,N/A,caliente,#003fef,32.8,54.7
+Sono,7,6,7,28.4,76,N/A,caliente,#f4c242,32.8,54.7
+Sono,7,6,11,36,39,N/A,caliente,#f4c242,32.8,54.7
+Sono,7,6,16,39,35,N/A,caliente,#cc0000,32.8,54.7
+Sono,7,6,20,33.6,43,N/A,caliente,#f4c242,32.8,54.7
+Sono,7,6,24,28.3,61,N/A,caliente,#f4c242,32.8,54.7
+BajaSur,1,19,2,8.8,64,N/A,frio,#f4c242,18.6,64.3
+BajaSur,1,19,4,8,66,N/A,frio,#003fef,18.6,64.3
+BajaSur,1,19,7,9.6,65,N/A,frio,#f4c242,18.6,64.3
+BajaSur,1,19,10,16.5,47,N/A,frio,#f4c242,18.6,64.3
+BajaSur,1,19,12,19.5,41,N/A,frio,#cc0000,18.6,64.3
+BajaSur,1,19,17,16.8,57,N/A,frio,#f4c242,18.6,64.3
+BajaSur,8,19,1,26.5,60,N/A,caliente,#003fef,30.6,66.1
+BajaSur,8,19,5,28.6,79,N/A,caliente,#f4c242,30.6,66.1
+BajaSur,8,19,9,36.2,57,N/A,caliente,#f4c242,30.6,66.1
+BajaSur,8,19,13,41,38,N/A,caliente,#cc0000,30.6,66.1
+BajaSur,8,19,17,39.4,41,N/A,caliente,#f4c242,30.6,66.1
+BajaSur,8,19,21,34,50,N/A,caliente,#f4c242,30.6,66.1
 BajaNor,12,23,4,8.5,74,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,12.8,60.44
 BajaNor,12,23,9,15.4,54,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,12.8,60.44
 BajaNor,12,23,13,19,40,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#003fef
+** Valores normalizados no disponibles",frio,#003fef,12.8,60.44
 BajaNor,12,23,16,15.3,50,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,12.8,60.44
 BajaNor,12,23,20,10.1,59,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,12.8,60.44
 BajaNor,12,23,24,7.4,76,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#003fef
+** Valores normalizados no disponibles",frio,#cc0000,12.8,60.44
 BajaNor,7,15,2,31,58,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,34.1,45.9
 BajaNor,7,15,6,33.6,58,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,34.1,45.9
 BajaNor,7,15,9,37.7,49,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#cc0000
+** Valores normalizados no disponibles",caliente,#003fef,34.1,45.9
 BajaNor,7,15,14,37,48,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,34.1,45.9
 BajaNor,7,15,19,35,44,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,34.1,45.9
 BajaNor,7,15,24,30.9,52,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#cc0000
-NvoL,1,9,1,13.1,91,N/A,frio,#47b4f7
-NvoL,1,9,5,10.5,90,N/A,frio,#003fef
-NvoL,1,9,10,16.2,60,N/A,frio,#47b4f7
-NvoL,1,9,14,21.2,29,N/A,frio,#003fef
-NvoL,1,9,18,17.7,45,N/A,frio,#47b4f7
-NvoL,1,9,22,14.3,63,N/A,frio,#47b4f7
-NvoL,7,14,1,22.6,90,N/A,caliente,#cc0000
-NvoL,7,14,5,23,92,N/A,caliente,#f27b7b
-NvoL,7,14,10,31.1,58,N/A,caliente,#f27b7b
-NvoL,7,14,15,35.7,39,N/A,caliente,#cc0000
-NvoL,7,14,19,31.4,50,N/A,caliente,#f27b7b
-NvoL,7,14,22,27.8,62,N/A,caliente,#f27b7b
-Micho,1,26,3,8.6,82,N/A,frio,#47b4f7
-Micho,1,26,7,6.5,87,N/A,frio,#003fef
-Micho,1,26,10,16.2,51,N/A,frio,#47b4f7
-Micho,1,26,14,26,24,N/A,frio,#003fef
-Micho,1,26,18,21,32,N/A,frio,#47b4f7
-Micho,1,26,22,15.2,63,N/A,frio,#47b4f7
-Micho,5,17,1,18.1,57,N/A,caliente,#f27b7b
-Micho,5,17,5,13.5,73,N/A,caliente,#cc0000
-Micho,5,17,9,22.3,55,N/A,caliente,#f27b7b
-Micho,5,17,14,28.6,35,N/A,caliente,#cc0000
-Micho,5,17,17,27.1,36,N/A,caliente,#f27b7b
-Micho,5,17,21,22.5,46,N/A,caliente,#f27b7b
-Oaxa,1,6,5,7,86,N/A,frio,#003fef
-Oaxa,1,6,8,11,65,N/A,frio,#47b4f7
-Oaxa,1,6,12,26,36,N/A,frio,#47b4f7
-Oaxa,1,6,15,28.9,37,N/A,frio,#003fef
-Oaxa,1,6,19,21.9,52,N/A,frio,#47b4f7
-Oaxa,1,6,24,14.2,70,N/A,frio,#47b4f7
-Oaxa,5,13,1,18.3,75,N/A,caliente,#f27b7b
-Oaxa,5,13,5,15.7,92,N/A,caliente,#cc0000
-Oaxa,5,13,9,25.4,52,N/A,caliente,#f27b7b
-Oaxa,5,13,13,33.4,28,N/A,caliente,#cc0000
-Oaxa,5,13,17,25,44,N/A,caliente,#f27b7b
-Oaxa,5,13,21,22.1,53,N/A,caliente,#f27b7b
-Hida,1,26,2,9.4,79,N/A,frio,#47b4f7
-Hida,1,26,5,8.8,81,N/A,frio,#003fef
-Hida,1,26,9,12.3,69,N/A,frio,#47b4f7
-Hida,1,26,14,18.8,35,N/A,frio,#003fef
-Hida,1,26,18,13.2,67,N/A,frio,#47b4f7
-Hida,1,26,22,11.3,79,N/A,frio,#47b4f7
-Hida,5,26,2,12.4,79,N/A,caliente,#f27b7b
-Hida,5,26,5,10.6,60,N/A,caliente,#cc0000
-Hida,5,26,9,17.9,41,N/A,caliente,#f27b7b
-Hida,5,26,14,24.1,31,N/A,caliente,#cc0000
-Hida,5,26,18,19.3,47,N/A,caliente,#f27b7b
-Hida,5,26,22,16,62,N/A,caliente,#f27b7b
-Pueb,1,5,2,6,70,N/A,frio,#47b4f7
-Pueb,1,5,6,3.3,87,N/A,frio,#003fef
-Pueb,1,5,10,15.4,41,N/A,frio,#47b4f7
-Pueb,1,5,14,23.2,28,N/A,frio,#003fef
-Pueb,1,5,18,17.8,32,N/A,frio,#47b4f7
-Pueb,1,5,22,13.1,45,N/A,frio,#47b4f7
-Pueb,5,18,1,15.6,65,N/A,caliente,#f27b7b
-Pueb,5,18,5,12,80,N/A,caliente,#cc0000
-Pueb,5,18,9,19.5,53,N/A,caliente,#f27b7b
-Pueb,5,18,14,26.5,33,N/A,caliente,#cc0000
-Pueb,5,18,18,18.3,45,N/A,caliente,#f27b7b
-Pueb,5,18,22,15.4,77,N/A,caliente,#f27b7b
-Quere,1,9,2,7.8,69,N/A,frio,#47b4f7
-Quere,1,9,6,4.8,81,N/A,frio,#003fef
-Quere,1,9,10,17.5,46,N/A,frio,#47b4f7
-Quere,1,9,14,25.4,50,N/A,frio,#003fef
-Quere,1,9,18,20.6,50,N/A,frio,#47b4f7
-Quere,1,9,22,15.6,53,N/A,frio,#47b4f7
-Quere,5,28,1,14.6,66,N/A,caliente,#f27b7b
-Quere,5,28,4,13,63,N/A,caliente,#cc0000
-Quere,5,28,9,22.3,51,N/A,caliente,#f27b7b
-Quere,5,28,14,26.5,53,N/A,caliente,#cc0000
-Quere,5,28,18,23.8,42,N/A,caliente,#f27b7b
-Quere,5,28,22,16.8,75,N/A,caliente,#f27b7b
-Coah,1,14,1,9.7,56,N/A,frio,#47b4f7
-Coah,1,14,5,0.8,63,N/A,frio,#003fef
-Coah,1,14,9,12.5,40,N/A,frio,#47b4f7
-Coah,1,14,13,23,38,N/A,frio,#003fef
-Coah,1,14,17,14.9,57,N/A,frio,#47b4f7
-Coah,1,14,22,9,66,N/A,frio,#47b4f7
-Coah,5,13,1,19.1,53,N/A,caliente,#cc0000
-Coah,5,13,5,21.9,79,N/A,caliente,#f27b7b
-Coah,5,13,10,30.3,42,N/A,caliente,#f27b7b
-Coah,5,13,15,34.7,34,N/A,caliente,#cc0000
-Coah,5,13,20,28.7,43,N/A,caliente,#f27b7b
-SanLu,1,10,3,6,100,N/A,frio,#47b4f7
-SanLu,1,10,6,5,100,N/A,frio,#003fef
-SanLu,1,10,10,15,59,N/A,frio,#47b4f7
-SanLu,1,10,15,21,38,N/A,frio,#003fef
-SanLu,1,10,19,16.5,59,N/A,frio,#47b4f7
-SanLu,1,10,23,10.7,74,N/A,frio,#47b4f7
-SanLu,5,8,2,17,72,N/A,caliente,#f27b7b
-SanLu,5,8,6,14.6,97,N/A,caliente,#cc0000
-SanLu,5,8,10,23.9,41,N/A,caliente,#f27b7b
-SanLu,5,8,14,28,38,N/A,caliente,#cc0000
-SanLu,5,8,18,23.6,39,N/A,caliente,#f27b7b
-SanLu,5,8,22,18.8,66,N/A,caliente,#f27b7b
-Naya,1,31,3,13.8,91,N/A,frio,#47b4f7
-Naya,1,31,6,7.7,92,N/A,frio,#003fef
-Naya,1,31,11,28.6,36,N/A,frio,#003fef
-Naya,1,31,15,24.8,65,N/A,frio,#47b4f7
-Naya,1,31,19,18.5,85,N/A,frio,#47b4f7
-Naya,6,6,4,21,92,N/A,caliente,#cc0000
-Naya,6,6,8,26.5,63,N/A,caliente,#f27b7b
-Naya,6,6,12,30,46,N/A,caliente,#cc0000
-Naya,6,6,16,26.8,71,N/A,caliente,#f27b7b
-Naya,6,6,20,22.9,85,N/A,caliente,#f27b7b
-Naya,6,6,24,21,94,N/A,caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#cc0000,34.1,45.9
+NvoL,1,9,1,13.1,91,N/A,frio,#f4c242,15.3,62.8
+NvoL,1,9,5,10.5,90,N/A,frio,#003fef,15.3,62.8
+NvoL,1,9,10,16.2,60,N/A,frio,#f4c242,15.3,62.8
+NvoL,1,9,14,21.2,29,N/A,frio,#cc0000,15.3,62.8
+NvoL,1,9,18,17.7,45,N/A,frio,#f4c242,15.3,62.8
+NvoL,1,9,22,14.3,63,N/A,frio,#f4c242,15.3,62.8
+NvoL,7,14,1,22.6,90,N/A,caliente,#003fef,14,63.7
+NvoL,7,14,5,23,92,N/A,caliente,#f4c242,14,63.7
+NvoL,7,14,10,31.1,58,N/A,caliente,#f4c242,14,63.7
+NvoL,7,14,15,35.7,39,N/A,caliente,#cc0000,14,63.7
+NvoL,7,14,19,31.4,50,N/A,caliente,#f4c242,14,63.7
+NvoL,7,14,22,27.8,62,N/A,caliente,#f4c242,14,63.7
+Micho,1,26,3,8.6,82,N/A,frio,#f4c242,15.7,56.7
+Micho,1,26,7,6.5,87,N/A,frio,#003fef,15.7,56.7
+Micho,1,26,10,16.2,51,N/A,frio,#f4c242,15.7,56.7
+Micho,1,26,14,26,24,N/A,frio,#cc0000,15.7,56.7
+Micho,1,26,18,21,32,N/A,frio,#f4c242,15.7,56.7
+Micho,1,26,22,15.2,63,N/A,frio,#f4c242,15.7,56.7
+Micho,5,17,1,18.1,57,N/A,caliente,#f4c242,22.1,50
+Micho,5,17,5,13.5,73,N/A,caliente,#003fef,22.1,50
+Micho,5,17,9,22.3,55,N/A,caliente,#f4c242,22.1,50
+Micho,5,17,14,28.6,35,N/A,caliente,#cc0000,22.1,50
+Micho,5,17,17,27.1,36,N/A,caliente,#f4c242,22.1,50
+Micho,5,17,21,22.5,46,N/A,caliente,#f4c242,22.1,50
+Oaxa,1,6,5,7,86,N/A,frio,#003fef,17.6,58.7
+Oaxa,1,6,8,11,65,N/A,frio,#f4c242,17.6,58.7
+Oaxa,1,6,12,26,36,N/A,frio,#f4c242,17.6,58.7
+Oaxa,1,6,15,28.9,37,N/A,frio,#cc0000,17.6,58.7
+Oaxa,1,6,19,21.9,52,N/A,frio,#f4c242,17.6,58.7
+Oaxa,1,6,24,14.2,70,N/A,frio,#f4c242,17.6,58.7
+Oaxa,5,13,1,18.3,75,N/A,caliente,#f4c242,23.6,55.8
+Oaxa,5,13,5,15.7,92,N/A,caliente,#003fef,23.6,55.8
+Oaxa,5,13,9,25.4,52,N/A,caliente,#f4c242,23.6,55.8
+Oaxa,5,13,13,33.4,28,N/A,caliente,#cc0000,23.6,55.8
+Oaxa,5,13,17,25,44,N/A,caliente,#f4c242,23.6,55.8
+Oaxa,5,13,21,22.1,53,N/A,caliente,#f4c242,23.6,55.8
+Hida,1,26,2,9.4,79,N/A,frio,#f4c242,12.3,67.2
+Hida,1,26,5,8.8,81,N/A,frio,#003fef,12.3,67.2
+Hida,1,26,9,12.3,69,N/A,frio,#f4c242,12.3,67.2
+Hida,1,26,14,18.8,35,N/A,frio,#cc0000,12.3,67.2
+Hida,1,26,18,13.2,67,N/A,frio,#f4c242,12.3,67.2
+Hida,1,26,22,11.3,79,N/A,frio,#f4c242,12.3,67.2
+Hida,5,26,2,12.4,79,N/A,caliente,#f4c242,17.2,52.7
+Hida,5,26,5,10.6,60,N/A,caliente,#003fef,17.2,52.7
+Hida,5,26,9,17.9,41,N/A,caliente,#f4c242,17.2,52.7
+Hida,5,26,14,24.1,31,N/A,caliente,#cc0000,17.2,52.7
+Hida,5,26,18,19.3,47,N/A,caliente,#f4c242,17.2,52.7
+Hida,5,26,22,16,62,N/A,caliente,#f4c242,17.2,52.7
+Pueb,1,5,2,6,70,N/A,frio,#f4c242,13.2,50.2
+Pueb,1,5,6,3.3,87,N/A,frio,#003fef,13.2,50.2
+Pueb,1,5,10,15.4,41,N/A,frio,#f4c242,13.2,50.2
+Pueb,1,5,14,23.2,28,N/A,frio,#cc0000,13.2,50.2
+Pueb,1,5,18,17.8,32,N/A,frio,#f4c242,13.2,50.2
+Pueb,1,5,22,13.1,45,N/A,frio,#f4c242,13.2,50.2
+Pueb,5,18,1,15.6,65,N/A,caliente,#f4c242,19.1,58.2
+Pueb,5,18,5,12,80,N/A,caliente,#003fef,19.1,58.2
+Pueb,5,18,9,19.5,53,N/A,caliente,#f4c242,19.1,58.2
+Pueb,5,18,14,26.5,33,N/A,caliente,#cc0000,19.1,58.2
+Pueb,5,18,18,18.3,45,N/A,caliente,#f4c242,19.1,58.2
+Pueb,5,18,22,15.4,77,N/A,caliente,#f4c242,19.1,58.2
+Quere,1,9,2,7.8,69,N/A,frio,#f4c242,14.9,58
+Quere,1,9,6,4.8,81,N/A,frio,#003fef,14.9,58
+Quere,1,9,10,17.5,46,N/A,frio,#f4c242,14.9,58
+Quere,1,9,14,25.4,50,N/A,frio,#cc0000,14.9,58
+Quere,1,9,18,20.6,50,N/A,frio,#f4c242,14.9,58
+Quere,1,9,22,15.6,53,N/A,frio,#f4c242,14.9,58
+Quere,5,28,1,14.6,66,N/A,caliente,#f4c242,22.6,55.9
+Quere,5,28,4,13,63,N/A,caliente,#003fef,22.6,55.9
+Quere,5,28,9,22.3,51,N/A,caliente,#f4c242,22.6,55.9
+Quere,5,28,14,26.5,53,N/A,caliente,#cc0000,22.6,55.9
+Quere,5,28,18,23.8,42,N/A,caliente,#f4c242,22.6,55.9
+Quere,5,28,22,16.8,75,N/A,caliente,#f4c242,22.6,55.9
+Coah,1,14,1,9.7,56,N/A,frio,#f4c242,11.6,56
+Coah,1,14,5,0.8,63,N/A,frio,#003fef,11.6,56
+Coah,1,14,9,12.5,40,N/A,frio,#f4c242,11.6,56
+Coah,1,14,13,23,38,N/A,frio,#cc0000,11.6,56
+Coah,1,14,17,14.9,57,N/A,frio,#f4c242,11.6,56
+Coah,1,14,22,9,66,N/A,frio,#f4c242,11.6,56
+Coah,5,13,1,19.1,53,N/A,caliente,#003fef,22.3,54.3
+Coah,5,13,5,21.9,79,N/A,caliente,#f4c242,22.3,54.3
+Coah,5,13,10,30.3,42,N/A,caliente,#f4c242,22.3,54.3
+Coah,5,13,15,34.7,34,N/A,caliente,#cc0000,22.3,54.3
+Coah,5,13,20,28.7,43,N/A,caliente,#f4c242,22.3,54.3
+SanLu,1,10,3,6,100,N/A,frio,#f4c242,13.2,70.2
+SanLu,1,10,6,5,100,N/A,frio,#003fef,13.2,70.2
+SanLu,1,10,10,15,59,N/A,frio,#f4c242,13.2,70.2
+SanLu,1,10,15,21,38,N/A,frio,#cc0000,13.2,70.2
+SanLu,1,10,19,16.5,59,N/A,frio,#f4c242,13.2,70.2
+SanLu,1,10,23,10.7,74,N/A,frio,#f4c242,13.2,70.2
+SanLu,5,8,2,17,72,N/A,caliente,#f4c242,21.1,58.3
+SanLu,5,8,6,14.6,97,N/A,caliente,#003fef,21.1,58.3
+SanLu,5,8,10,23.9,41,N/A,caliente,#f4c242,21.1,58.3
+SanLu,5,8,14,28,38,N/A,caliente,#cc0000,21.1,58.3
+SanLu,5,8,18,23.6,39,N/A,caliente,#f4c242,21.1,58.3
+SanLu,5,8,22,18.8,66,N/A,caliente,#f4c242,21.1,58.3
+Naya,1,31,3,13.8,91,N/A,frio,#f4c242,18.5,76.7
+Naya,1,31,6,7.7,92,N/A,frio,#003fef,18.5,76.7
+Naya,1,31,11,28.6,36,N/A,frio,#cc0000,18.5,76.7
+Naya,1,31,15,24.8,65,N/A,frio,#f4c242,18.5,76.7
+Naya,1,31,19,18.5,85,N/A,frio,#f4c242,18.5,76.7
+Naya,6,6,4,21,92,N/A,caliente,#003fef,24.9,73
+Naya,6,6,8,26.5,63,N/A,caliente,#f4c242,24.9,73
+Naya,6,6,12,30,46,N/A,caliente,#cc0000,24.9,73
+Naya,6,6,16,26.8,71,N/A,caliente,#f4c242,24.9,73
+Naya,6,6,20,22.9,85,N/A,caliente,#f4c242,24.9,73
+Naya,6,6,24,21,94,N/A,caliente,#f4c242,24.9,73
 Tlax,12,12,5,3.8,74,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#003fef
+** Valores normalizados no disponibles",frio,#003fef,12.5,61.7
 Tlax,12,12,8,10.2,55,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,12.5,61.7
 Tlax,12,12,11,20.6,37,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#003fef
+** Valores normalizados no disponibles",frio,#cc0000,12.5,61.7
 Tlax,12,12,16,18.9,39,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,12.5,61.7
 Tlax,12,12,20,13.4,53,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,12.5,61.7
 Tlax,12,12,24,7.2,75,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",frio,#47b4f7
+** Valores normalizados no disponibles",frio,#f4c242,12.5,61.7
 Tlax,5,12,1,14.7,89,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,19.1,63.4
 Tlax,5,12,5,12.3,92,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#cc0000
+** Valores normalizados no disponibles",caliente,#003fef,19.1,63.4
 Tlax,5,12,9,20.3,75,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,19.1,63.4
 Tlax,5,12,14,27.7,40,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#cc0000
+** Valores normalizados no disponibles",caliente,#cc0000,19.1,63.4
 Tlax,5,12,18,23.6,62,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,19.1,63.4
 Tlax,5,12,22,18.9,80,"* Valores tomados de la media anual para la capital
-** Valores normalizados no disponibles",caliente,#f27b7b
-EdoMex,1,9,5,0.8,87,N/A,frio,#003fef
-EdoMex,1,9,8,6,82,N/A,frio,#47b4f7
-EdoMex,1,9,12,18.1,30,N/A,frio,#003fef
-EdoMex,1,9,16,14,42,N/A,frio,#47b4f7
-EdoMex,1,9,20,7.6,78,N/A,frio,#47b4f7
-EdoMex,1,9,24,4.4,82,N/A,frio,#47b4f7
-EdoMex,6,18,2,10.4,97,N/A,caliente,#cc0000
-EdoMex,6,18,5,10.9,91,N/A,caliente,#f27b7b
-EdoMex,6,18,8,15.9,66,N/A,caliente,#f27b7b
-EdoMex,6,18,12,20.3,53,N/A,caliente,#cc0000
-EdoMex,6,18,16,16.4,71,N/A,caliente,#f27b7b
-EdoMex,6,18,20,13.9,82,N/A,caliente,#f27b7b
-Chia,1,23,1,22.3,81,N/A,frio,#47b4f7
-Chia,1,23,6,19,88,N/A,frio,#003fef
-Chia,1,23,9,25,74,N/A,frio,#47b4f7
-Chia,1,23,12,28.6,60,N/A,frio,#003fef
-Chia,1,23,16,24,74,N/A,frio,#47b4f7
-Chia,1,23,20,22,83,N/A,frio,#47b4f7
-Chia,5,3,4,23,70,N/A,caliente,#cc0000
-Chia,5,3,7,24,73,N/A,caliente,#f27b7b
-Chia,5,3,10,32,67,N/A,caliente,#f27b7b
-Chia,5,3,14,37,60,N/A,caliente,#cc0000
-Chia,5,3,19,28,74,N/A,caliente,#f27b7b
-Chia,5,3,23,26.3,78,N/A,caliente,#f27b7b
-Vera,1,16,3,16,94,N/A,frio,#003fef
-Vera,1,16,6,16.2,94,N/A,frio,#47b4f7
-Vera,1,16,9,22.5,71,N/A,frio,#47b4f7
-Vera,1,16,12,28,55,N/A,frio,#003fef
-Vera,1,16,16,25.5,68,N/A,frio,#47b4f7
-Vera,1,16,21,20.3,94,N/A,frio,#47b4f7
-Vera,6,16,4,25,89,N/A,caliente,#cc0000
-Vera,6,16,7,28.3,78,N/A,caliente,#f27b7b
-Vera,6,16,11,33.7,59,N/A,caliente,#f27b7b
-Vera,6,16,14,33.8,59,N/A,caliente,#cc0000
-Vera,6,16,18,29.4,71,N/A,caliente,#f27b7b
-Vera,6,16,22,28.8,85,N/A,caliente,#f27b7b
-Tabas,12,21,2,16.3,93,N/A,frio,#003fef
-Tabas,12,21,6,17.4,93,N/A,frio,#47b4f7
-Tabas,12,21,10,21,81,N/A,frio,#47b4f7
-Tabas,12,21,14,22.3,76,N/A,frio,#003fef
-Tabas,12,21,18,20.6,80,N/A,frio,#47b4f7
-Tabas,12,21,22,17.7,83,N/A,frio,#47b4f7
-Tabas,6,21,3,27,83,N/A,caliente,#cc0000
-Tabas,6,21,7,30.3,74,N/A,caliente,#f27b7b
-Tabas,6,21,11,35.5,60,N/A,caliente,#f27b7b
-Tabas,6,21,15,37.4,55,N/A,caliente,#cc0000
-Tabas,6,21,19,32.1,63,N/A,caliente,#f27b7b
-Tabas,6,21,23,27.8,75,N/A,caliente,#f27b7b
-Zaca,1,26,6,-0.7,67,N/A,frio,#003fef
-Zaca,1,26,9,14.3,38,N/A,frio,#47b4f7
-Zaca,1,26,12,21.3,22,N/A,frio,#47b4f7
-Zaca,1,26,16,22.7,19,N/A,frio,#003fef
-Zaca,1,26,20,12.4,37,N/A,frio,#47b4f7
-Zaca,1,26,24,6.7,61,N/A,frio,#47b4f7
-Zaca,6,27,1,17,49,N/A,caliente,#f27b7b
-Zaca,6,27,5,14,67,N/A,caliente,#cc0000
-Zaca,6,27,9,19.3,47,N/A,caliente,#f27b7b
-Zaca,6,27,13,23.8,32,N/A,caliente,#cc0000
-Zaca,6,27,17,23.3,32,N/A,caliente,#f27b7b
-Zaca,6,27,21,18,60,N/A,caliente,#f27b7b
+** Valores normalizados no disponibles",caliente,#f4c242,19.1,63.4
+EdoMex,1,9,5,0.8,87,N/A,frio,#003fef,8.7,65.7
+EdoMex,1,9,8,6,82,N/A,frio,#f4c242,8.7,65.7
+EdoMex,1,9,12,18.1,30,N/A,frio,#cc0000,8.7,65.7
+EdoMex,1,9,16,14,42,N/A,frio,#f4c242,8.7,65.7
+EdoMex,1,9,20,7.6,78,N/A,frio,#f4c242,8.7,65.7
+EdoMex,1,9,24,4.4,82,N/A,frio,#f4c242,8.7,65.7
+EdoMex,6,18,2,10.4,97,N/A,caliente,#003fef,14.8,76.5
+EdoMex,6,18,5,10.9,91,N/A,caliente,#f4c242,14.8,76.5
+EdoMex,6,18,8,15.9,66,N/A,caliente,#f4c242,14.8,76.5
+EdoMex,6,18,12,20.3,53,N/A,caliente,#cc0000,14.8,76.5
+EdoMex,6,18,16,16.4,71,N/A,caliente,#f4c242,14.8,76.5
+EdoMex,6,18,20,13.9,82,N/A,caliente,#f4c242,14.8,76.5
+Chia,1,23,1,22.3,81,N/A,frio,#f4c242,23.1,78.3
+Chia,1,23,6,19,88,N/A,frio,#003fef,23.1,78.3
+Chia,1,23,9,25,74,N/A,frio,#f4c242,23.1,78.3
+Chia,1,23,12,28.6,60,N/A,frio,#cc0000,23.1,78.3
+Chia,1,23,16,24,74,N/A,frio,#f4c242,23.1,78.3
+Chia,1,23,20,22,83,N/A,frio,#f4c242,23.1,78.3
+Chia,5,3,4,23,70,N/A,caliente,#003fef,28.6,68.3
+Chia,5,3,7,24,73,N/A,caliente,#f4c242,28.6,68.3
+Chia,5,3,10,32,67,N/A,caliente,#f4c242,28.6,68.3
+Chia,5,3,14,37,60,N/A,caliente,#cc0000,28.6,68.3
+Chia,5,3,19,28,74,N/A,caliente,#f4c242,28.6,68.3
+Chia,5,3,23,26.3,78,N/A,caliente,#f4c242,28.6,68.3
+Vera,1,16,3,16,94,N/A,frio,#003fef,21.4,80.7
+Vera,1,16,6,16.2,94,N/A,frio,#f4c242,21.4,80.7
+Vera,1,16,9,22.5,71,N/A,frio,#f4c242,21.4,80.7
+Vera,1,16,12,28,55,N/A,frio,#cc0000,21.4,80.7
+Vera,1,16,16,25.5,68,N/A,frio,#f4c242,21.4,80.7
+Vera,1,16,21,20.3,94,N/A,frio,#f4c242,21.4,80.7
+Vera,6,16,4,25,89,N/A,caliente,#003fef,28.2,78.5
+Vera,6,16,7,28.3,78,N/A,caliente,#f4c242,28.2,78.5
+Vera,6,16,11,33.7,59,N/A,caliente,#f4c242,28.2,78.5
+Vera,6,16,14,33.8,59,N/A,caliente,#cc0000,28.2,78.5
+Vera,6,16,18,29.4,71,N/A,caliente,#f4c242,28.2,78.5
+Vera,6,16,22,28.8,85,N/A,caliente,#f4c242,28.2,78.5
+Tabas,12,21,2,16.3,93,N/A,frio,#003fef,19.2,84.4
+Tabas,12,21,6,17.4,93,N/A,frio,#f4c242,19.2,84.4
+Tabas,12,21,10,21,81,N/A,frio,#f4c242,19.2,84.4
+Tabas,12,21,14,22.3,76,N/A,frio,#cc0000,19.2,84.4
+Tabas,12,21,18,20.6,80,N/A,frio,#f4c242,19.2,84.4
+Tabas,12,21,22,17.7,83,N/A,frio,#f4c242,19.2,84.4
+Tabas,6,21,3,27,83,N/A,caliente,#003fef,28.3,75.9
+Tabas,6,21,7,30.3,74,N/A,caliente,#f4c242,28.3,75.9
+Tabas,6,21,11,35.5,60,N/A,caliente,#f4c242,28.3,75.9
+Tabas,6,21,15,37.4,55,N/A,caliente,#cc0000,28.3,75.9
+Tabas,6,21,19,32.1,63,N/A,caliente,#f4c242,28.3,75.9
+Tabas,6,21,23,27.8,75,N/A,caliente,#f4c242,28.3,75.9
+Zaca,1,26,6,-0.7,67,N/A,frio,#003fef,12,41
+Zaca,1,26,9,14.3,38,N/A,frio,#f4c242,12,41
+Zaca,1,26,12,21.3,22,N/A,frio,#f4c242,12,41
+Zaca,1,26,16,22.7,19,N/A,frio,#cc0000,12,41
+Zaca,1,26,20,12.4,37,N/A,frio,#f4c242,12,41
+Zaca,1,26,24,6.7,61,N/A,frio,#f4c242,12,41
+Zaca,6,27,1,17,49,N/A,caliente,#f4c242,19.3,47.4
+Zaca,6,27,5,14,67,N/A,caliente,#003fef,19.3,47.4
+Zaca,6,27,9,19.3,47,N/A,caliente,#f4c242,19.3,47.4
+Zaca,6,27,13,23.8,32,N/A,caliente,#cc0000,19.3,47.4
+Zaca,6,27,17,23.3,32,N/A,caliente,#f4c242,19.3,47.4
+Zaca,6,27,21,18,60,N/A,caliente,#f4c242,19.3,47.4
